@@ -1,0 +1,70 @@
+/** Styling Variables **/
+:root {
+  --ucla-gold: #ffd100;
+  --ucla-darker-gold: #ffc72c;
+  --ucla-darkest-gold: #ffb81c;    
+  --ucla-blue: #2774ae;
+  --ucla-lightest-blue: #daebfe;
+  --ucla-lighter-blue: #8bb8e8;
+  --ucla-darker-blue: #005587;
+  --ucla-darkest-blue: #003b5c;
+  --black: #000;
+  --grey: #666;
+  --light-grey: #999;
+  --white: #fff;
+  --color-primary: var(--ucla-blue);
+  --color-secondary: var(--ucla-darkest-blue);
+  --color-accent: var(--ucla-lightest-blue);
+  --font-family: 'Overpass', Helvetica, Arial, sans-serif;
+  --font-family-display: var(--font-family);
+  --bold: bold;    
+}
+
+/** Page **/
+body {
+    background: var(--ucla-darkest-blue);
+    color: var(--black);
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/** Hyperlinks **/
+a {
+    color: var(--ucla-blue);
+}
+a:hover {
+    color: var(--ucla-darker-blue);
+}
+a:active,
+a.active {
+    color: var(--ucla-darkest-gold);
+}
+
+/** Headings **/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: var(--bold);
+}
+
+/** Navigation Bar **/
+.navbar a{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: var(--white);
+}
+.navbar a:hover {
+    color: var(--ucla-darker-gold);
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/** Footer **/
+footer {
+    font-weight: var(--bold);
+}
