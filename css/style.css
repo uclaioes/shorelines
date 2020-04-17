@@ -82,6 +82,11 @@ header h2 {
     text-align: center;
 }
 
+/** Carousel **/
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 /** Footer **/
 footer {
     font-weight: var(--bold);
