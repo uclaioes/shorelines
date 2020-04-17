@@ -1,29 +1,31 @@
 /** Styling Variables **/
 :root {
-  --ucla-gold: #ffd100;
-  --ucla-darker-gold: #ffc72c;
-  --ucla-darkest-gold: #ffb81c;    
-  --ucla-blue: #2774ae;
-  --ucla-lightest-blue: #daebfe;
-  --ucla-lighter-blue: #8bb8e8;
-  --ucla-darker-blue: #005587;
-  --ucla-darkest-blue: #003b5c;
-  --black: #000;
-  --grey: #666;
-  --light-grey: #999;
-  --white: #fff;
-  --color-primary: var(--ucla-blue);
-  --color-secondary: var(--ucla-darkest-blue);
-  --color-accent: var(--ucla-lightest-blue);
-  --font-family: 'Overpass', Helvetica, Arial, sans-serif;
-  --font-family-display: var(--font-family);
-  --bold: bold;    
+    --ucla-gold: #ffd100;
+    --ucla-darker-gold: #ffc72c;
+    --ucla-darkest-gold: #ffb81c;
+    --ucla-blue: #2774ae;
+    --ucla-lightest-blue: #daebfe;
+    --ucla-lighter-blue: #8bb8e8;
+    --ucla-darker-blue: #005587;
+    --ucla-darkest-blue: #003b5c;
+    --white: #fff;
+    --light-grey: #e6e6e6;
+    --grey: #999;
+    --dark-grey: #666;
+    --darkest-grey: #333;
+    --black: #000;
+    --color-primary: var(--ucla-blue);
+    --color-secondary: var(--ucla-darkest-blue);
+    --color-accent: var(--ucla-lightest-blue);
+    --font-family: 'Overpass', Helvetica, Arial, sans-serif;
+    --font-family-display: var(--font-family);
+    --bold: bold;
 }
 
-/** Page **/
+/** Webpage **/
+html,
 body {
-    background: var(--ucla-darkest-blue);
-    color: var(--black);
+    background: var(--ucla-darker-blue);
     font-family: var(--font-family);
     font-size: 1rem;
     font-weight: 400;
@@ -52,16 +54,32 @@ h6 {
 }
 
 /** Navigation Bar **/
-.navbar a{
-    font-size: 1.5rem;
+.navbar-nav .nav-item {
+    padding: 0 1rem;
+}
+.navbar a {
+    font-size: 1.25rem;
     text-transform: uppercase;
-    color: var(--white);
+    color: var(--light-grey);
 }
 .navbar a:hover {
-    color: var(--ucla-darker-gold);
+    color: var(--white);
+}
+.navbar a:active,
+.navbar a.active {
+    color: var(--ucla-darkest-gold);
 }
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/** Header **/
+header #about-us {
+    background: var(--white);
+    color: var(--darkest-grey);
+}
+header h2 {
+    text-align: center;
 }
 
 /** Footer **/
