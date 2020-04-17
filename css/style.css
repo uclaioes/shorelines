@@ -14,9 +14,6 @@
     --dark-grey: #666;
     --darkest-grey: #333;
     --black: #000;
-    --color-primary: var(--ucla-blue);
-    --color-secondary: var(--ucla-darkest-blue);
-    --color-accent: var(--ucla-lightest-blue);
     --font-family: 'Overpass', Helvetica, Arial, sans-serif;
     --font-family-display: var(--font-family);
     --bold: bold;
@@ -26,6 +23,7 @@
 html,
 body {
     background: var(--ucla-darker-blue);
+    color: var(--darkest-grey);
     font-family: var(--font-family);
     font-size: 1rem;
     font-weight: 400;
@@ -33,10 +31,10 @@ body {
 
 /** Hyperlinks **/
 a {
-    color: var(--ucla-blue);
+    color: var(--ucla-darker-blue);
 }
 a:hover {
-    color: var(--ucla-darker-blue);
+    color: var(--ucla-blue);
 }
 a:active,
 a.active {
@@ -72,19 +70,28 @@ h6 {
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+.navbar .dropdown-menu {
+    background: var(--ucla-darker-blue);
+}
+.navbar .dropdown-menu a {
+    font-size: 1rem;
+}
+.navbar .dropdown-menu a:hover {
+    background: var(--ucla-darker-blue);
+}
 
 /** Header **/
 header #about-us {
     background: var(--white);
-    color: var(--darkest-grey);
 }
-header h2 {
+header #about-us h2 {
     text-align: center;
 }
 
 /** Carousel **/
-.carousel-caption {
+#carouselIndicators .carousel-caption {
     background-color: rgba(0, 0, 0, 0.4);
+    padding: 1rem 1rem;
 }
 
 /** Footer **/
