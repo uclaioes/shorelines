@@ -33,14 +33,25 @@ body {
 
 /** Hyperlinks **/
 a {
-    color: var(--ucla-darker-blue);
+    color: var(--ucla-blue);
 }
 a:hover {
-    color: var(--ucla-blue);
+    color: var(--ucla-darker-blue);
 }
 a:active,
 a.active {
     color: var(--ucla-darkest-gold);
+}
+
+/** Buttons **/
+.btn-outline-primary {
+    color: var(--ucla-darker-blue);
+    border-color: var(--ucla-darker-blue);
+}
+.btn-outline-primary:hover {
+    background: var(--ucla-blue);
+    border-color: var(--ucla-blue);
+    color: var(--white);
 }
 
 /** Headings **/
@@ -94,6 +105,14 @@ header #about-us h2 {
 #carouselIndicators .carousel-caption {
     background-color: rgba(0, 0, 0, 0.4);
     padding: 1rem 1rem;
+}
+
+/** Featured Projects **/
+#featured h3 {
+    color: var(--white);
+    text-decoration: underline;
+    text-decoration-color: var(--ucla-darkest-gold);
+    text-align: center;
 }
 
 /** Footer **/
