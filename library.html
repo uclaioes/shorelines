@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="$DESCRIPTION">
     <!-- Title -->
-    <title>$WEBSITE</title>
+    <title>$TITLE</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -31,7 +31,8 @@
     <nav class="navbar navbar-expand-md">
         <!-- Logo -->
         <a class="navbar-brand" href="#">
-            <img src="https://via.placeholder.com/150x75?text=LOGO" class="img-responsive" alt="$LOGO" />
+            <img src="https://via.placeholder.com/150x75?text=LOGO" class="img-responsive" alt="$TITLE" />
+            <h1 class="sr-only">$TITLE</h1>
         </a>
         <!-- Navigation Toggle -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -39,7 +40,7 @@
         </button>
         <!-- Navigation Links -->
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-4">
                 <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
                 </li>
@@ -53,7 +54,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Research</a>
                         <a class="dropdown-item" href="#">Interviews</a>
-                        <a class="dropdown-item" href="#">Library</a>
+                        <a class="dropdown-item" href="library.html">Library</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -63,30 +64,62 @@
         </div>
     </nav>
 
-    <!-- Section -->
-    <section id="library">
+    <!-- Library -->
+    <section id="#library">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-
+                    
                 </div>
             </div>
         </div>
     </section>
-
+    
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-
+            <div class="row py-3">
+                <!-- Logo -->
+                <div class="col-xs-12 col-md-6 py-3">
+                    <div class="media">
+                        <a href="#">
+                            <img src="https://via.placeholder.com/100x100?text=LOGO" class="img-responsive align-self-center mr-3" alt="$TITLE" />
+                        </a>
+                        <div class="media-body">
+                            <h5 class="mt-0">$TITLE</h5>
+                            <p class="mb-0">
+                                Donec sed odio dui<br>
+                                Nullam quis risus eget<br>
+                                Cum sociis natoque
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Newsletter -->
+                <div class="col-xs-12 col-md-6 py-3" id="newsletter">
+                    <h5>Newsletter</h5>
+                    <span class="d-block mb-2">Sign up to receive the latest email updates</span>
+                    <form class="form-inline">
+                        <label class="sr-only" for="userEmail">Email</label>
+                        <div class="input-group mb-2 mr-sm-2">
+                            <input type="text" class="form-control" id="userEmail" placeholder="Email Address">
+                        </div>
+                        <button type="submit" class="btn btn-outline-secondary mb-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row pb-3">
+                <!-- Copyright -->
+                <div class="col-xs-12 col-md-12 text-center">
+                    <span id="copyright">Copyright 2020 &copy; $TITLE</span>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- Load Javascript -->
+    <!-- JQuery JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
