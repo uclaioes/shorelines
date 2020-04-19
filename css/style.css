@@ -72,6 +72,12 @@ h5,
 h6 {
     font-weight: var(--bold);
 }
+h2 {
+    color: var(--white);
+    text-decoration: underline;
+    text-decoration-color: var(--ucla-darkest-gold);
+    text-align: center;
+}
 
 /** Navigation Bar **/
 .navbar-nav .nav-item {
@@ -115,14 +121,6 @@ header #about-us h3 {
 #carouselIndicators .carousel-caption {
     background-color: rgba(0, 0, 0, 0.4);
     padding: 1rem 1rem;
-}
-
-/** Featured Projects **/
-#featured h2 {
-    color: var(--white);
-    text-decoration: underline;
-    text-decoration-color: var(--ucla-darkest-gold);
-    text-align: center;
 }
 
 /** Footer **/
