@@ -156,7 +156,7 @@
     </section>
     
     <!-- Map -->
-    <section id="map">
+    <section id="googleMap">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-12 pt-3">
@@ -165,7 +165,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-md-12">
-                    
+                    <div id="map"></div>
                 </div>
             </div>
         </div>
@@ -213,9 +213,35 @@
         </div>
     </footer>
 
-    <!-- Load Javascript -->
+    <!-- JQuery JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Google Maps JS -->
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Los Angeles
+            var losangeles = {
+                lat: 34.069188,
+                lng: -118.445203
+            };
+            // The map, centered at Los Angeles
+            var map = new google.maps.Map(
+                document.getElementById('map'), {
+                    zoom: 9,
+                    center: losangeles
+                });
+            // The marker, positioned at Los Angeles
+            var marker = new google.maps.Marker({
+                position: losangeles,
+                map: map
+            });
+        }
+    </script>
+    <!-- Google API Key -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrPCY2ABp8KOk8-sRpzONgmh_P1s5wSMI&callback=initMap">
+    </script>
 </body>
 </html>
