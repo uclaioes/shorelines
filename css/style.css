@@ -97,11 +97,11 @@ h6 {
 header #about-us {
     background: var(--white);
 }
-header #about-us h2 {
+header #about-us h4 {
     text-decoration: underline;
     text-decoration-color: var(--ucla-darkest-gold);
 }
-header #newsletter h6 {
+header #newsletter h5 {
     font-size: 1.25rem;
     text-decoration: underline;
     text-decoration-color: var(--ucla-darkest-gold);
@@ -114,7 +114,7 @@ header #newsletter h6 {
 }
 
 /** Featured Projects **/
-#featured h3 {
+#featured h2 {
     color: var(--white);
     text-decoration: underline;
     text-decoration-color: var(--ucla-darkest-gold);
