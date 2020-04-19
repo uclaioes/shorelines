@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="$DESCRIPTION">
     <!-- Title -->
-    <title>$WEBSITE</title>
+    <title>$TITLE</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -31,8 +31,8 @@
     <nav class="navbar navbar-expand-md">
         <!-- Logo -->
         <a class="navbar-brand" href="#">
-            <img src="https://via.placeholder.com/150x75?text=LOGO" class="img-responsive" alt="$LOGO" />
-            <h1 class="sr-only">$LOGO</h1>
+            <img src="https://via.placeholder.com/150x75?text=LOGO" class="img-responsive" alt="$TITLE" />
+            <h1 class="sr-only">$TITLE</h1>
         </a>
         <!-- Navigation Toggle -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -114,22 +114,9 @@
                 </div>
                 <!-- About Us -->
                 <div class="col-xs-12 col-lg-4 p-3" id="about-us">
-                    <div class="col-xs-12">
-                        <h4>About Us</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum ornare velit vel gravida. Maecenas hendrerit erat eget libero aliquam porttitor. Vivamus nec sapien eu ex facilisis pharetra venenatis ut velit. Nunc sed ex arcu.</p>
-                    </div>
-                    <!-- Newsletter -->
-                    <div class="col-xs-12" id="newsletter">
-                        <h5>Newsletter</h5>
-                        <p>Sign up to receive the latest email updates</p>
-                        <form class="form-inline">
-                            <label class="sr-only" for="userEmail">Email</label>
-                            <div class="input-group mb-2 mr-sm-2">
-                                <input type="text" class="form-control" id="userEmail" placeholder="Email Address">
-                            </div>
-                            <button type="submit" class="btn btn-outline-primary mb-2">Submit</button>
-                        </form>
-                    </div>
+                    <h3>About Us</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel eleifend nibh. Morbi dui purus, porttitor vitae sagittis vel, dapibus et metus. Aenean ac urna purus. Donec ut odio at libero consectetur semper. Vivamus pharetra dolor purus. Cras eleifend, sapien et ornare vulputate, velit massa venenatis risus, vel suscipit est lorem vel tellus.</p>
+                    <a href="#" class="btn btn-outline-primary">Learn More</a>
                 </div>
             </div>
         </div>
@@ -148,7 +135,7 @@
                     <div class="card">
                         <img class="card-img-top" src="https://via.placeholder.com/850x400?text=CARD" alt="$CARD">
                         <div class="card-body">
-                            <h3 class="card-title">Card title</h3>
+                            <h4 class="card-title">Card title</h4>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin massa augue, ut convallis quam accumsan eu. Sed viverra nisi magna, non tincidunt risus rhoncus ac. </p>
                             <a href="#" class="btn btn-outline-primary">Learn More</a>
                         </div>
@@ -158,11 +145,23 @@
                     <div class="card">
                         <img class="card-img-top" src="https://via.placeholder.com/850x400?text=CARD" alt="$CARD">
                         <div class="card-body">
-                            <h3 class="card-title">Card title</h3>
+                            <h4 class="card-title">Card title</h4>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin massa augue, ut convallis quam accumsan eu. Sed viverra nisi magna, non tincidunt risus rhoncus ac. </p>
                             <a href="#" class="btn btn-outline-primary">Learn More</a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Map -->
+    <section id="map">
+        <div class="container">
+            <div class="row">
+                <!-- Map -->
+                <div class="col-xs-12">
+                
                 </div>
             </div>
         </div>
@@ -182,9 +181,40 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-
+            <div class="row py-3">
+                <!-- Logo -->
+                <div class="col-xs-12 col-md-6 py-3">
+                    <div class="media">
+                        <a href="#">
+                            <img src="https://via.placeholder.com/100x100?text=LOGO" class="img-responsive align-self-center mr-3" alt="$TITLE" />
+                        </a>
+                        <div class="media-body">
+                            <h5 class="mt-0">$TITLE</h5>
+                            <p class="mb-0">
+                                Donec sed odio dui<br>
+                                Nullam quis risus eget<br>
+                                Cum sociis natoque
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Newsletter -->
+                <div class="col-xs-12 col-md-6 py-3" id="newsletter">
+                    <h5>Newsletter</h5>
+                    <span class="d-block mb-2">Sign up to receive the latest email updates</span>
+                    <form class="form-inline">
+                        <label class="sr-only" for="userEmail">Email</label>
+                        <div class="input-group mb-2 mr-sm-2">
+                            <input type="text" class="form-control" id="userEmail" placeholder="Email Address">
+                        </div>
+                        <button type="submit" class="btn btn-outline-secondary mb-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row pb-3">
+                <!-- Copyright -->
+                <div class="col-xs-12 col-md-12 text-center">
+                    <span id="copyright">Copyright 2020 &copy; $TITLE</span>
                 </div>
             </div>
         </div>

@@ -53,6 +53,15 @@ a.active {
     border-color: var(--ucla-blue);
     color: var(--white);
 }
+.btn-outline-secondary {
+    color: var(--white);
+    border-color: var(--white);
+}
+.btn-outline-secondary:hover {
+    background: var(--ucla-blue);
+    border-color: var(--ucla-blue);
+    color: var(--white);
+}
 
 /** Headings **/
 h1,
@@ -71,10 +80,10 @@ h6 {
 .navbar a {
     font-size: 1.25rem;
     text-transform: uppercase;
-    color: var(--light-grey);
+    color: var(--white);
 }
 .navbar a:hover {
-    color: var(--white);
+    color: var(--ucla-gold);
 }
 .navbar a:active,
 .navbar a.active {
@@ -97,11 +106,7 @@ h6 {
 header #about-us {
     background: var(--white);
 }
-header #about-us h4 {
-    text-decoration: underline;
-    text-decoration-color: var(--ucla-darkest-gold);
-}
-header #newsletter h5 {
+header #about-us h3 {
     text-decoration: underline;
     text-decoration-color: var(--ucla-darkest-gold);
 }
@@ -122,5 +127,11 @@ header #newsletter h5 {
 
 /** Footer **/
 footer {
-    font-weight: var(--bold);
+    color: var(--white);
+}
+
+/** Newsletter --*/
+#newsletter h5 {
+    text-decoration: underline;
+    text-decoration-color: var(--ucla-darkest-gold);
 }
