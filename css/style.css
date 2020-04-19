@@ -101,6 +101,11 @@ header #about-us h2 {
     text-decoration: underline;
     text-decoration-color: var(--ucla-darkest-gold);
 }
+header #newsletter h6 {
+    font-size: 1.25rem;
+    text-decoration: underline;
+    text-decoration-color: var(--ucla-darkest-gold);
+}
 
 /** Carousel **/
 #carouselIndicators .carousel-caption {
