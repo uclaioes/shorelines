@@ -223,7 +223,7 @@
         // Initialize and add the map
         function initMap() {
             // The location of Los Angeles
-            var losangeles = {
+            var ucla = {
                 lat: 34.069188,
                 lng: -118.445203
             };
@@ -231,16 +231,17 @@
             var map = new google.maps.Map(
                 document.getElementById('map'), {
                     zoom: 9,
-                    center: losangeles
+                    center: ucla
                 });
             // The marker, positioned at Los Angeles
             var marker = new google.maps.Marker({
-                position: losangeles,
+                position: ucla,
                 map: map
             });
         }
     </script>
     <!-- Google API Key -->
-    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrPCY2ABp8KOk8-sRpzONgmh_P1s5wSMI&callback=initMap">
+    </script>
 </body>
 </html>
