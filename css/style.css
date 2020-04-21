@@ -157,8 +157,16 @@ header #about-us {
 }
 
 /** Footer **/
+#seagrass {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    background: url("/img/seagrass.svg") repeat-x;
+}
 footer {
     color: var(--white);
+    background: linear-gradient(0deg, rgba(105,80,25,1) 0%, rgba(161,136,98,1) 100%);
+    margin-top: 170px;
 }
 
 /** Newsletter --*/
