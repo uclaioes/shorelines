@@ -118,7 +118,7 @@ header #about-us {
 }
 
 /** Carousel **/
-#carouselHeader .carousel-item {
+#carouselHeader .carousel-item > img {
     max-height:  405px;
 }
 #carouselHeader .carousel-caption {
