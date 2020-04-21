@@ -132,12 +132,12 @@ header #about-us {
     height: 75vh;
     background-color: var(--light-grey);
 }
+
 /** Team **/
 #members h3 {
   color: var(--white);
   text-align: center;
 }
-
 #members h5 {
     color: var(--dark-grey);
 }
