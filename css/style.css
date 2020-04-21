@@ -118,7 +118,10 @@ header #about-us {
 }
 
 /** Carousel **/
-#carouselIndicators .carousel-caption {
+#carouselHeader .carousel-item {
+    max-height:  405px;
+}
+#carouselHeader .carousel-caption {
     background-color: rgba(0, 0, 0, 0.4);
     padding: 1rem 1rem;
 }
