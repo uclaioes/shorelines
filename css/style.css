@@ -78,10 +78,6 @@ h3 {
     text-decoration: underline;
     text-decoration-color: var(--ucla-darkest-gold);
 }
-h2 {
-    color: var(--white);
-    text-align: center;
-}
 
 /** Navigation Bar **/
 .navbar-nav .nav-item {
@@ -112,9 +108,13 @@ h2 {
     font-size: 1rem;
 }
 
-/** Header **/
+/** Home Page **/
 header #about-us {
     background: var(--white);
+}
+#featured h2 {
+    color: var(--white);
+    text-align: center;
 }
 
 /** Carousel **/
@@ -134,6 +134,11 @@ header #about-us {
 }
 
 /** Team **/
+#team {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#team h2,
 #members h3 {
   color: var(--white);
   text-align: center;
