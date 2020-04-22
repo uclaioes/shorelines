@@ -165,7 +165,7 @@ h3 {
     position: absolute;
     height: 200px;
     width: 100%;
-    background: url('img/seagrass.svg') repeat-x;
+    background: url(https://drb326.github.io/cb-site/img/seagrass.svg) repeat-x;
 }
 footer {
     color: var(--white);
