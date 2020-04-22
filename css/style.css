@@ -75,6 +75,8 @@ h6 {
 h1,
 h2,
 h3 {
+    color: var(--white);
+    text-align: center;
     text-decoration: underline;
     text-decoration-color: var(--ucla-darkest-gold);
 }
@@ -109,13 +111,12 @@ h3 {
 }
 
 /** Home Page **/
-header #about-us {
+#about-us {
     background: var(--white);
 }
-#featured h2 {
-    color: var(--white);
-    text-align: center;
-}
+#about-us h3 {
+    color: var(--darkest-grey);
+} 
 
 /** Carousel **/
 #carouselHeader .carousel-item > img {
@@ -138,18 +139,19 @@ header #about-us {
     max-width: 1000px;
     margin: 0 auto;
 }
-#team h2,
-#members h3 {
-  color: var(--white);
-  text-align: center;
-}
 #members h5 {
     color: var(--dark-grey);
+}
+#members .card img {
+    
 }
 
 /** Library **/
 #library {
     background: var(--white);
+}
+#library h3 {
+    color: var(--darkest-grey);
 }
 #libraryNav .list-group-item {
     color: var(--ucla-darker-blue);
