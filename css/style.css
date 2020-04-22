@@ -82,6 +82,9 @@ h3 {
 }
 
 /** Navigation Bar **/
+.navbar #logo {
+	max-width: 50vh;
+}
 .navbar-nav .nav-item {
     padding: 0 1rem;
 }
@@ -116,7 +119,7 @@ h3 {
 }
 #about-us h3 {
     color: var(--darkest-grey);
-} 
+}
 
 /** Carousel **/
 #carouselHeader .carousel-item > img {
