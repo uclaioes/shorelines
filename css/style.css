@@ -142,9 +142,6 @@ h3 {
 #members h5 {
     color: var(--dark-grey);
 }
-#members .card img {
-    
-}
 
 /** Library **/
 #library {
@@ -168,7 +165,7 @@ h3 {
     position: absolute;
     height: 200px;
     width: 100%;
-    background: url("/img/seagrass.svg") repeat-x;
+    background: url("/img/seagrass2.svg") repeat-x;
 }
 footer {
     color: var(--white);
