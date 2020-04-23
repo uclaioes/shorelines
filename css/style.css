@@ -23,8 +23,9 @@
 html {
     background: var(--ucla-darkest-blue);
 }
+
 body {
-    background: linear-gradient(0deg, rgba(0,59,92,1) 0%, rgba(0,85,135,1) 60%, rgba(39,116,174,1) 100%);
+    background: linear-gradient(0deg, rgba(0, 59, 92, 1) 0%, rgba(0, 85, 135, 1) 60%, rgba(39, 116, 174, 1) 100%);
     color: var(--darkest-grey);
     font-family: var(--font-family);
     font-size: 1rem;
@@ -35,9 +36,11 @@ body {
 a {
     color: var(--ucla-blue);
 }
+
 a:hover {
     color: var(--ucla-darker-blue);
 }
+
 a:active,
 a.active {
     color: var(--ucla-darkest-gold);
@@ -48,15 +51,18 @@ a.active {
     color: var(--ucla-darker-blue);
     border-color: var(--ucla-darker-blue);
 }
+
 .btn-outline-primary:hover {
     background: var(--ucla-blue);
     border-color: var(--ucla-blue);
     color: var(--white);
 }
+
 .btn-outline-secondary {
     color: var(--white);
     border-color: var(--white);
 }
+
 .btn-outline-secondary:hover {
     background: var(--ucla-blue);
     border-color: var(--ucla-blue);
@@ -72,6 +78,7 @@ h5,
 h6 {
     font-weight: var(--bold);
 }
+
 h1,
 h2,
 h3 {
@@ -83,48 +90,53 @@ h3 {
 
 /** Navigation Bar **/
 .navbar #logo {
-	max-width: 50vh;
+    max-width: 50vh;
 }
+
 .navbar-nav .nav-item {
     padding: 0 1rem;
 }
+
 .navbar a {
     font-size: 1.25rem;
     text-transform: uppercase;
+    color: var(--ucla-lightest-blue);
+}
+
+.navbar a:hover {
     color: var(--white);
 }
-.navbar a:hover {
-    color: var(--ucla-darker-gold);
-}
+
 .navbar a:active,
 .navbar a.active {
     color: var(--ucla-gold);
 }
+
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
 .navbar .dropdown-menu,
 .navbar .dropdown-menu a:hover,
 .navbar .dropdown-menu a:active,
 .navbar .dropdown-menu a.active {
     background: var(--ucla-blue);
 }
+
 .navbar .dropdown-menu a {
     font-size: 1rem;
 }
 
 /** Home Page **/
-#about-us {
-    background: var(--white);
-}
 #about-us h3 {
     color: var(--darkest-grey);
 }
 
 /** Carousel **/
 #carouselHeader .carousel-item > img {
-    max-height:  405px;
+    max-height: 405px;
 }
+
 #carouselHeader .carousel-caption {
     background-color: rgba(0, 0, 0, 0.4);
     padding: 1rem 1rem;
@@ -142,21 +154,26 @@ h3 {
     max-width: 1000px;
     margin: 0 auto;
 }
+
 #members h5 {
     color: var(--dark-grey);
 }
 
 /** Library **/
-#library {
-    background: var(--white);
-}
 #library h3 {
     color: var(--darkest-grey);
 }
+
+#library h4 {
+    font-size: 1rem;
+    color: var(--dark-grey);
+}
+
 #libraryNav .list-group-item {
     color: var(--ucla-darker-blue);
     border-color: var(--ucla-darker-blue);
 }
+
 #libraryNav .list-group-item:hover {
     background: var(--ucla-blue);
     border-color: var(--ucla-blue);
@@ -170,9 +187,10 @@ h3 {
     width: 100%;
     background: url(https://drb326.github.io/cb-site/img/seagrass.svg) repeat-x;
 }
+
 footer {
     color: var(--white);
-    background: linear-gradient(0deg, rgba(105,80,25,1) 76%, rgba(174,148,107,1) 100%);
+    background: linear-gradient(0deg, rgba(105, 80, 25, 1) 76%, rgba(174, 148, 107, 1) 100%);
     margin-top: 170px;
 }
 
