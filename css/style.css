@@ -90,7 +90,7 @@ h3 {
 
 /** Navigation Bar **/
 .navbar #logo {
-    max-width: 50vh;
+    max-width: 250px;
 }
 
 .navbar-nav .nav-item {
@@ -193,9 +193,10 @@ footer {
     background: linear-gradient(0deg, rgba(105, 80, 25, 1) 76%, rgba(174, 148, 107, 1) 100%);
     margin-top: 170px;
 }
-
-/** Newsletter --*/
-#newsletter h5 {
+footer #newsletter h5 {
     text-decoration: underline;
     text-decoration-color: var(--ucla-darkest-gold);
+}
+footer #copyright {
+    color: #2d2015;
 }
