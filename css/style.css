@@ -162,7 +162,7 @@ h3 {
 
 /** Jumbotron **/
 #jumbo .container {
-    background: url(/img/grass.jpg) center no-repeat;
+    background: url(https://drb326.github.io/cb-site/img/grass.jpg) center no-repeat;
     background-size: cover;
 }
 #jumbo #jumbo-text {
