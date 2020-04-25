@@ -176,7 +176,7 @@ h3 {
     background: rgba(0, 0, 0, 0.3);
     display: inline-block;
 }
-#jumbo h1 {
+#jumbo h2 {
     color: var(--ucla-lightest-blue);
 }
 

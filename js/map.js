@@ -26,7 +26,7 @@ var proj = [
 ]
 
 var projicon = L.icon({
-  iconUrl: 'icons/eco2.png',
+  iconUrl: 'icons/eco2-alt.png',
   className: 'svg-icon',
   iconSize: [25,25]
 })
