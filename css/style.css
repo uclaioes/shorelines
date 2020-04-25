@@ -133,11 +133,6 @@ h3 {
 }
 
 /** Carousel **/
-#carouselHeader .carousel-item {
-    height: 375px;
-    text-align: center;
-}
-
 #carouselHeader .carousel-item-image {
     height: 375px;
     position: relative;
@@ -153,6 +148,13 @@ h3 {
     left: 0;
     right: 0;
     bottom: 0;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    #carouselHeader .carousel-item-image img.img-carousel {
+        width: 100%;
+    }
 }
 
 #carouselHeader .carousel-caption {
