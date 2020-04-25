@@ -92,6 +92,11 @@ h3 {
 .navbar #logo {
     max-width: 250px;
 }
+@media (max-width: 320px) {
+    .navbar #logo {
+        max-width: 200px;
+    }
+}
 
 .navbar-nav .nav-item {
     padding: 0 1rem;
