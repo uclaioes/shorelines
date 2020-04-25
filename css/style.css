@@ -92,6 +92,7 @@ h3 {
 .navbar #logo {
     max-width: 250px;
 }
+
 @media (max-width: 320px) {
     .navbar #logo {
         max-width: 200px;
@@ -172,10 +173,12 @@ h3 {
     background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(https://drb326.github.io/cb-site/img/grass.jpg) center no-repeat;
     background-size: cover;
 }
+
 #jumbo #jumbo-text {
     background: rgba(0, 0, 0, 0.3);
     display: inline-block;
 }
+
 #jumbo h2 {
     color: var(--ucla-lightest-blue);
 }
@@ -190,6 +193,7 @@ h3 {
     margin: 0 auto;
 }
 
+/** Members **/
 #members h5 {
     color: var(--dark-grey);
 }
