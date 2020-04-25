@@ -133,25 +133,48 @@ h3 {
 }
 
 /** Carousel **/
-#carouselHeader .carousel-item > img {
-    max-height: 405px;
+#carouselHeader .carousel-item {
+    height: 375px;
+    text-align: center;
+}
+
+#carouselHeader .carousel-item-image {
+    height: 375px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#carouselHeader .carousel-item-image img.img-carousel {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 #carouselHeader .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
     padding: 1rem 1rem;
 }
 
 /** Jumbotron **/
-#jumbo h1{
-	color: var(--ucla-lightest-blue);
+#jumbo .container {
+    background: url(/img/grass.jpg) center no-repeat;
+    background-size: cover;
+}
+#jumbo #jumbo-text {
+    background: rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
+#jumbo h1 {
+    color: var(--ucla-lightest-blue);
 }
 
-/**Map **/
-#map {
-    width: 100%;
-    height: 75vh;
-    background-color: var(--light-grey);
+#jumbo p {
+    color: var(--white);
 }
 
 /** Team **/
@@ -162,6 +185,13 @@ h3 {
 
 #members h5 {
     color: var(--dark-grey);
+}
+
+/**Map **/
+#map {
+    width: 100%;
+    height: 75vh;
+    background-color: var(--light-grey);
 }
 
 /** Library **/
@@ -198,13 +228,16 @@ footer {
     background: linear-gradient(0deg, rgba(105, 80, 25, 1) 76%, rgba(174, 148, 107, 1) 100%);
     margin-top: 170px;
 }
+
 footer #logo-short {
     max-width: 100px;
 }
+
 footer #newsletter h5 {
     text-decoration: underline;
     text-decoration-color: var(--ucla-darkest-gold);
 }
+
 footer #copyright {
     color: #2d2015;
 }
