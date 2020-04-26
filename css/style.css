@@ -8,6 +8,10 @@
     --ucla-lighter-blue: #8bb8e8;
     --ucla-darker-blue: #005587;
     --ucla-darkest-blue: #003b5c;
+    --seagreen: #57d69c;
+    --green: #3f7d35;
+    --light-green: #79ab6f;
+    --lightest-green: #a0c997;
     --white: #fff;
     --light-grey: #e6e6e6;
     --grey: #999;
@@ -38,7 +42,7 @@ a {
 }
 
 a:hover {
-    color: var(--ucla-darker-blue);
+    color: var(--ucla-darkest-blue);
 }
 
 a:active,
@@ -85,7 +89,7 @@ h3 {
     color: var(--white);
     text-align: center;
     text-decoration: underline;
-    text-decoration-color: var(--ucla-darkest-gold);
+    text-decoration-color: var(--light-green);
 }
 
 /** Navigation Bar **/
@@ -114,7 +118,7 @@ h3 {
 }
 
 .navbar a.active {
-    color: var(--ucla-gold);
+    color: var(--lightest-green);
 }
 
 .navbar-toggler-icon {
@@ -135,6 +139,8 @@ h3 {
 /** Home Page **/
 #about-us h3 {
     color: var(--darkest-grey);
+    text-decoration: underline;
+    text-decoration-color: var(--light-green)
 }
 
 /** Carousel **/
@@ -179,11 +185,15 @@ h3 {
 }
 
 #jumbo h2 {
-    color: var(--ucla-lightest-blue);
+    color: var(--white);
+    text-decoration:underline;
+    text-decoration-color: var(--light-green);
+    text-shadow: 0px 2px 2px black
 }
 
 #jumbo p {
     color: var(--white);
+    font-style: italic;
 }
 
 /** Team **/
@@ -194,7 +204,8 @@ h3 {
 
 /** Members **/
 #members h5 {
-    color: var(--dark-grey);
+    color: var(--light-green);
+    font-style: italic;
 }
 
 /**Map **/
