@@ -113,7 +113,6 @@ h3 {
     color: var(--white);
 }
 
-.navbar a:active,
 .navbar a.active {
     color: var(--ucla-gold);
 }
