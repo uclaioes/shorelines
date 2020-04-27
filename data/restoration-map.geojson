@@ -11,6 +11,9 @@
             ]
          },
          "properties":{
+            "marker-size": "large",
+            "marker-symbol": "wetland",
+            "marker-color": "#a0c997",
             "Name":"Palos Verdes Peninsula",
             "Institute":"Bay Foundation",
             "Year":"ongoing",
@@ -29,6 +32,9 @@
             ]
          },
          "properties":{
+            "marker-size": "large",
+            "marker-symbol": "wetland",
+            "marker-color": "#a0c997",
             "Name":"Atlantic side of Virginia’s Eastern Shore",
             "Institute":"Virginia Coastal Zone Management Program",
             "Year":"1998-present ",
@@ -47,6 +53,9 @@
             ]
          },
          "properties":{
+            "marker-size": "large",
+            "marker-symbol": "wetland",
+            "marker-color": "#a0c997",
             "Name":"eastern Florida, Biscayne Bay",
             "Institute":"Port of Miami Expansion Program",
             "Year":"1987",
@@ -65,6 +74,9 @@
             ]
          },
          "properties":{
+            "marker-size": "large",
+            "marker-symbol": "wetland",
+            "marker-color": "#a0c997",           
             "Name":"West Galveston Bay",
             "Institute":"Galveston Bay Foundation",
             "Year":"1994-1995",
@@ -83,6 +95,9 @@
             ]
          },
          "properties":{
+            "marker-size": "large",
+            "marker-symbol": "wetland",
+            "marker-color": "#a0c997",           
             "Name":"Potomac River",
             "Institute":"Chesapeake Bay Program",
             "Year":"2003-2005",
@@ -101,6 +116,9 @@
             ]
          },
          "properties":{
+            "marker-size": "large",
+            "marker-symbol": "wetland",
+            "marker-color": "#a0c997",           
             "Name":"Boston harbor",
             "Institute":"Massachusetts Division of Marine Fisheries",
             "Year":"2004-2007",
@@ -119,6 +137,9 @@
             ]
          },
          "properties":{
+            "marker-size": "large",
+            "marker-symbol": "wetland",
+            "marker-color": "#a0c997",           
             "Name":"Agua hedionada lagoon",
             "Institute":"Southern California Caulerpa taxifolia Eradication Program",
             "Year":"2000-2005",
@@ -137,6 +158,9 @@
             ]
          },
          "properties":{
+            "marker-size": "large",
+            "marker-symbol": "wetland",
+            "marker-color": "#a0c997",           
             "Name":"Tampa bay ",
             "Institute":"Tampa bay estuary program",
             "Year":"ongoing",
@@ -155,6 +179,9 @@
             ]
          },
          "properties":{
+            "marker-size": "large",
+            "marker-symbol": "wetland",
+            "marker-color": "#a0c997",           
             "Name":"San Francisco Bay (Location 1: Hayward)",
             "Institute":"Coastal Conservancy",
             "Year":"2011-2017",
@@ -173,6 +200,9 @@
             ]
          },
          "properties":{
+            "marker-size": "large",
+            "marker-symbol": "wetland",
+            "marker-color": "#a0c997",           
             "Name":"San Francisco Bay (Location 2: San Rafael) ",
             "Institute":"Coastal Conservancy",
             "Year":"2011-2017",
@@ -191,6 +221,9 @@
             ]
          },
          "properties":{
+            "marker-size": "large",
+            "marker-symbol": "wetland",
+            "marker-color": "#a0c997",           
             "Name":"Delaware Inland Bays ",
             "Institute":"Virginia Institute of Marine Science",
             "Year":"1990",
@@ -209,6 +242,9 @@
             ]
          },
          "properties":{
+            "marker-size": "large",
+            "marker-symbol": "wetland",
+            "marker-color": "#a0c997",           
             "Name":"Eastern Long Island Sound",
             "Institute":"Cornell Cooperative Extension Marine Program",
             "Year":"2008-2010",
@@ -227,6 +263,9 @@
             ]
          },
          "properties":{
+            "marker-size": "large",
+            "marker-symbol": "wetland",
+            "marker-color": "#a0c997",           
             "Name":"Huntington Harbor",
             "Institute":"Town of Huntington and Cornell Cooperative Extension Marine Program",
             "Year":"2004-2006",
@@ -245,6 +284,9 @@
             ]
          },
          "properties":{
+            "marker-size": "large",
+            "marker-symbol": "wetland",
+            "marker-color": "#a0c997",           
             "Name":"Peconic Estuary",
             "Institute":"Town of Shelter Island  and Cornell Cooperative Extension Marine Program",
             "Year":"2004-2007",
@@ -263,6 +305,9 @@
             ]
          },
          "properties":{
+            "marker-size": "large",
+            "marker-symbol": "wetland",
+            "marker-color": "#a0c997",           
             "Name":"Wickford Harbor (Rhode Island)",
             "Institute":"Save the Bay; University of Rhode Island",
             "Year":"",
@@ -281,6 +326,9 @@
             ]
          },
          "properties":{
+            "marker-size": "large",
+            "marker-symbol": "wetland",
+            "marker-color": "#a0c997",           
             "Name":"Mission Bay (San Diego) ",
             "Institute":"Merkel & Associates, Inc; City of San Diego",
             "Year":"2016-",
