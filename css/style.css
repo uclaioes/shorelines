@@ -36,6 +36,11 @@ body {
     font-weight: 400;
 }
 
+/** Remove Rounded Corners **/
+* {
+  border-radius: 0 !important;
+}
+
 /** Hyperlinks **/
 a {
     color: var(--ucla-blue);
