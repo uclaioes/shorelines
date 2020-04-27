@@ -6,9 +6,10 @@ var maxBounds = [
 
 // Initialize Map
 var map = L.map('map', {
-    'center': [39.8283, -98.5795],
-    'zoom': 4,
-    'maxBounds': maxBounds
+    center: [39.8283, -98.5795],
+    zoom: 4,
+    minZoom: 4,
+    maxBounds: maxBounds
 });
 
 // Map Layer
