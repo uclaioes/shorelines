@@ -138,9 +138,20 @@ h3 {
 
 /** Home Page **/
 #about-us h3 {
-    color: var(--darkest-grey);
+    color: var(--white);
     text-decoration: underline;
-    text-decoration-color: var(--light-green)
+    text-decoration-color: var(--light-green);
+
+}
+
+#about-us p {
+    color: var(--white);
+
+}
+
+#about-us .btn-outline-primary {
+    color: var(--white);
+    border-color: var(--white);
 }
 
 /** Carousel **/
