@@ -47,7 +47,7 @@ a:hover {
 
 a:active,
 a.active {
-    color: var(--ucla-darkest-gold);
+    color: var(--light-green);
 }
 
 /** Buttons **/
@@ -68,8 +68,8 @@ a.active {
 }
 
 .btn-outline-secondary:hover {
-    background: var(--ucla-blue);
-    border-color: var(--ucla-blue);
+    background: var(--light-green);
+    border-color: var(--light-green);
     color: var(--white);
 }
 
@@ -89,7 +89,7 @@ h3 {
     color: var(--white);
     text-align: center;
     text-decoration: underline;
-    text-decoration-color: var(--light-green);
+    text-decoration-color: var(--seagreen);
 }
 
 /** Navigation Bar **/
@@ -183,7 +183,6 @@ h3 {
 }
 
 #jumbo h1 {
-    text-decoration-color: var(--lightest-green);
     text-shadow: 0px 2px 2px black;
 }
 
