@@ -89,7 +89,7 @@ h3 {
     color: var(--white);
     text-align: center;
     text-decoration: underline;
-    text-decoration-color: var(--seagreen);
+    text-decoration-color: var(--lightest-green);
 }
 
 /** Navigation Bar **/
@@ -251,7 +251,7 @@ footer #logo-short {
 
 footer #newsletter h5 {
     text-decoration: underline;
-    text-decoration-color: var(--ucla-darkest-gold);
+    text-decoration-color: var(--lightest-green);
 }
 
 footer #copyright {
