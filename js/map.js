@@ -40,7 +40,6 @@ var proj = [
 
 // Set Location Icon
 var projicon = L.icon({
-    // iconUrl: 'icons/eco2-alt.png',
     iconUrl: 'img/ioes-short-shade.svg',
     className: 'svg-icon',
     iconSize: [25, 25]
