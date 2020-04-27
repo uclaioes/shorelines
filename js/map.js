@@ -1,10 +1,23 @@
-var map = L.map('map').setView([39.8283, -98.5795], 4);
+// Set Map Bounds
+var maxBounds = [
+    [5.499550, -167.276413], // Southwest
+    [83.162102, -52.233040] // Northeast
+];
 
+// Initialize Map
+var map = L.map('map', {
+    'center': [39.8283, -98.5795],
+    'zoom': 4,
+    'maxBounds': maxBounds
+});
+
+// Map Layer
 L.tileLayer(
-	'https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-		attribution: 'Map data &copy; OpenStreetMap contributors'
-	}).addTo(map);
+    'https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; OpenStreetMap contributors'
+    }).addTo(map);
 
+// Set Locations
 var proj = [
 	[33.7459, -118.4137],
 	[37.3685, -75.8364],
@@ -22,16 +35,19 @@ var proj = [
 	[41.0997, -72.3206],
 	[41.5781, -71.4436],
 	[32.7712, -117.2317]
+];
 
-]
-
+// Set Location Icon
 var projicon = L.icon({
-  // iconUrl: 'icons/eco2-alt.png',
-  iconUrl: 'img/ioes-short-shade.svg',
-  className: 'svg-icon',
-  iconSize: [25,25]
-})
+    // iconUrl: 'icons/eco2-alt.png',
+    iconUrl: 'img/ioes-short-shade.svg',
+    className: 'svg-icon',
+    iconSize: [25, 25]
+});
 
-for (var i=0; i<proj.length; i++) {
-  marker = new L.marker(proj[i], {icon:projicon}).addTo(map)
-}
+// Iterate Icon for each Location
+for (var i = 0; i < proj.length; i++) {
+    marker = new L.marker(proj[i], {
+        icon: projicon
+    }).addTo(map)
+};
