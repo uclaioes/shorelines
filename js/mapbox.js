@@ -34,15 +34,11 @@ map.on('load', function() {
 		'type': 'symbol',
 		'source': 'points',
 		'layout': {
-			// get the icon name from the source's "icon" property
-			// concatenate the name to get an icon from the style's sprite sheet
 			'icon-image': 'custom-marker',
 			'icon-size': 0.2,
 			'icon-allow-overlap': true,
 		}
 	});
-	// When a click event occurs on a feature in the places layer, open a popup at the
-	// location of the feature, with Description HTML from its properties.
 	map.on('click', 'points', function(e) {
 		var coordinates = e.features[0].geometry.coordinates.slice();
 		var name = e.features[0].properties.Name;
@@ -73,3 +69,5 @@ map.on('load', function() {
 	});
 
 });
+
+// Load Project List
