@@ -1,5 +1,5 @@
 // Load API Key
-mapboxgl.accessToken = 'pk.eyJ1IjoiY2JlcmNpayIsImEiOiJjazlxZjN3dGIwOHkxM21tcmppa2x2N2xpIn0.dtgTNF18iuCitp8EVYwpXA';
+mapboxgl.accessToken = 'pk.eyJ1IjoiZHJiMzI2IiwiYSI6ImNrOXJtZjdsejB1Ym8zc3J0YzVmOGVsM2oifQ.OXHjkTqAEBmIQUaWOnq5zw';
 
 // Set Map Bounds
 var maxBounds = [
@@ -10,7 +10,7 @@ var maxBounds = [
 // Initialize Map
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/satellite-v9',
+    style: 'mapbox://styles/drb326/ck9rmbrd908z01im9vazg600s',
     center: [-98.5795, 39.8283],
     zoom: 3,
     minZoom: 2,
