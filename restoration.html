@@ -155,7 +155,7 @@
     <!-- Project List JS -->
     <script>
         // Load Project Data
-        var projectdata = $.getJSON("https://drb326.github.io/cb-site/data/restoration.geojson", function(projectdata) {
+        var projectdata = $.getJSON("data/restoration.geojson", function(projectdata) {
             console.log(projectdata);
             // Create Project List
             projectdata.features.forEach(function(e) {
