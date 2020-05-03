@@ -215,6 +215,15 @@ h3 {
     background-color: var(--light-grey);
 }
 
+/** Project List **/
+#project-list .subheading {
+    color: var(--light-green);
+    font-style: italic;
+}
+#project-list .year {
+    font-weight: bold;
+}
+
 /** Library **/
 #library h3 {
     color: var(--darkest-grey);
