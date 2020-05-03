@@ -19,16 +19,19 @@ var map = new mapboxgl.Map({
 
 // Load GeoJSON Layer
 map.on('load', function () {
+    // Load Custom Icon
     map.loadImage(
         'https://drb326.github.io/cb-site/icons/eco2-alt.png',
         function (error, image) {
             if (error) throw error;
             map.addImage('custom-marker', image);
         });
+    // Load Location Data
     map.addSource('points', {
         'type': 'geojson',
         'data': 'https://drb326.github.io/cb-site/data/restoration-map.geojson'
     });
+    // Add Location Points to Map
     map.addLayer({
         'id': 'points',
         'type': 'symbol',
@@ -39,6 +42,7 @@ map.on('load', function () {
             'icon-allow-overlap': true,
         }
     });
+    // Add Popups to Map
     map.on('click', 'points', function (e) {
         var coordinates = e.features[0].geometry.coordinates.slice();
         var name = e.features[0].properties.Name;
@@ -51,7 +55,6 @@ map.on('load', function () {
         while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
             coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
         }
-
         new mapboxgl.Popup()
             .setLngLat(coordinates)
             .setHTML('<h6><a href="' + link + '" target="_blank">' + name + '</a></h6>' + description)
