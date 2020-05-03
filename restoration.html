@@ -86,9 +86,9 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Project List -->
-    <section id="project-list">
+    <section>
         <div class="container py-3">
             <div class="row">
                 <div class="col-xs-12 col-md-12">
@@ -96,17 +96,7 @@
                 </div>
             </div>
             <!-- Projects -->
-            <div class="row">
-                <div class="col-xs-12 col-md-6 col-lg-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin massa augue, ut convallis quam accumsan eu. Sed viverra nisi magna, non tincidunt risus rhoncus ac. </p>
-                            <a href="#" class="btn btn-outline-primary">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="row" id="project-list"></div>
         </div>
     </section>
 
@@ -154,7 +144,7 @@
     </footer>
 
     <!-- JQuery JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -164,8 +154,12 @@
     <script src="js/mapbox.js"></script>
     <!-- Project List JS -->
     <script>
-        
+        // Load Project Data
+        var projectdata = $.getJSON("https://drb326.github.io/cb-site/data/restoration-map.geojson", function(projectdata) {
+            // Create Project Elements
+            projectdata.features.forEach(function(e) {
+                document.getElementById("project-list").innerHTML += "<div class='col-xs-12 col-md-6 col-lg-4'><div class='card mb-4'><div class='card-body'><h4 class='card-title''><a href='" + e.properties.Link + "'>" + e.properties.Name + "</a></h4><p class='card-text'>" + e.properties.Description + "</p><a href='" + e.properties.Link + "' class='btn btn-outline-primary''>Learn More</a></div></div></div>";
+            });
+        });
     </script>
-</body>
-
-</html>
+</body></html>

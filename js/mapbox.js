@@ -13,7 +13,7 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/satellite-v9',
     center: [-98.5795, 39.8283],
     zoom: 3,
-    minZoom: 3,
+    minZoom: 2,
     maxBounds: maxBounds
 });
 
