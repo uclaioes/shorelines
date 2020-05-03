@@ -45,7 +45,7 @@
     "Institute":"Coastal Conservancy",
     "Year":"2011-2017",
     "Ecosystem":"Seagrass & Oyster",
-    "Description":"Planted combinations of eelgrass units and different oyster substrate units to assess�biological and physical effects of treatment plots. Overall: Eelgrass transplanted from Point Molate was more successful than donors from Point San Pablo due to similar muddy conditions effects of treatment plots. Overall: Eelgrass transplanted from Point Molate was more successful than donors from Point San Pablo due to similar muddy conditions",
+    "Description":"Planted combinations of eelgrass units and different oyster substrate units to assess biological and physical effects of treatment plots. Overall: Eelgrass transplanted from Point Molate was more successful than donors from Point San Pablo due to similar muddy conditions effects of treatment plots. Overall: Eelgrass transplanted from Point Molate was more successful than donors from Point San Pablo due to similar muddy conditions",
     "Link":"https://scc.ca.gov/webmaster/ftp/pdf/restore-shoreline/sfbay-living-shorline-project-052412.pdf"
     }
   },
@@ -61,7 +61,7 @@
     "Institute":"Coastal Conservancy",
     "Year":"2011-2017",
     "Ecosystem":"Seagrass & Oyster",
-    "Description":"Planted combinations of eelgrass units and different oyster substrate units to assess�biological and physical",
+    "Description":"Planted combinations of eelgrass units and different oyster substrate units to assess biological and physical",
     "Link":"https://scc.ca.gov/webmaster/ftp/pdf/restore-shoreline/sfbay-living-shorline-project-052412.pdf"
     }
   },
@@ -218,7 +218,7 @@
     "properties": {
     "id":14,
     "Name":"Peconic Estuary",
-    "Institute":"Town Of Shelter Island� And Cornell Cooperative Extension Marine Program",
+    "Institute":"Town Of Shelter Island And Cornell Cooperative Extension Marine Program",
     "Year":"2004-2007",
     "Ecosystem":"Seagrass",
     "Description":"Project involved transplanting adult shoots and using various densities to determine the most effective methods. Planting into circular 1m2  plots at a density of 200 shoots/m2 was shown to be the best method.",
@@ -233,11 +233,11 @@
     },
     "properties": {
     "id":15,
-    "Name":"Virginia�s Eastern Shore",
+    "Name":"Virginia's Eastern Shore",
     "Institute":"Virginia Coastal Zone Management Program",
     "Year":"1998",
     "Ecosystem":"Seagrass",
-    "Description":"Restoration project ongoing since 1998 on the Atlantic side of Virginia�s Eastern Shore. Seagrass restoration wass carried out by transplanting seeds in a process called �seed broadcasting� from healthy communities. By 2013, over five thousand acres of seagrass beds were restored.",
+    "Description":"Restoration project ongoing since 1998 on the Atlantic side of Virginia's Eastern Shore. Seagrass restoration wass carried out by transplanting seeds in a process called 'seed broadcasting' from healthy communities. By 2013, over five thousand acres of seagrass beds were restored.",
     "Link":"https://www.deq.virginia.gov/Programs/CoastalZoneManagement/CZMIssuesInitiatives/SeaGrass.aspx"
     }
   },
