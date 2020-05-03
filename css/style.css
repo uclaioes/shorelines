@@ -62,8 +62,8 @@ a.active {
 }
 
 .btn-outline-primary:hover {
-    background: var(--ucla-blue);
-    border-color: var(--ucla-blue);
+    background: var(--light-green);
+    border-color: var(--light-green);
     color: var(--white);
 }
 
@@ -219,6 +219,7 @@ h3 {
 #project-list .subheading {
     color: var(--light-green);
     font-style: italic;
+    font-size: 1.1rem;
 }
 #project-list .year {
     font-weight: bold;
