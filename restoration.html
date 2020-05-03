@@ -155,7 +155,8 @@
     <!-- Project List JS -->
     <script>
         // Load Project Data
-        var projectdata = $.getJSON("https://drb326.github.io/cb-site/data/restoration-map.geojson", function(projectdata) {
+        var projectdata = $.getJSON("https://drb326.github.io/cb-site/data/restoration.geojson", function(projectdata) {
+            console.log(projectdata);
             // Create Project List
             projectdata.features.forEach(function(e) {
                 document.getElementById("project-list").innerHTML += "<div class='col-xs-12 col-lg-6 mb-3'><div class='card h-100'><div class='card-body'><h4 class='card-title''><a href='" + e.properties.Link + "' target='_blank'>" + e.properties.Name + "</a></h4><div class='subheading'>" + e.properties.Institute + "</div><div class='year mb-1'>" + e.properties.Year + "</div><p class='card-text'>" + e.properties.Description + "</p><a href='" + e.properties.Link + "' target='_blank' class='btn btn-outline-primary''>Learn More</a></div></div></div>";
