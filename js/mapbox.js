@@ -27,7 +27,7 @@ map.on('load', function() {
 		});
 	map.addSource('points', {
 		'type': 'geojson',
-		'data': 'projects.geojson'
+		'data': 'https://drb326.github.io/cb-site/data/projects.geojson'
 	})
 	map.addLayer({
 		'id': 'points',
