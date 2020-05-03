@@ -69,5 +69,3 @@ map.on('load', function () {
     });
 
 });
-
-// Load Project List
