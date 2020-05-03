@@ -34,7 +34,7 @@ map.on('load', function () {
     // Load Location Data
     map.addSource('points', {
         'type': 'geojson',
-        'data': './data/restoration-map.geojson'
+        'data': './data/restoration.geojson'
     });
     // Add Location Points to Map
     map.addLayer({
