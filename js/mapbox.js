@@ -28,7 +28,7 @@ map.on('load', function () {
     map.addSource('points', {
         'type': 'geojson',
         'data': 'https://drb326.github.io/cb-site/data/restoration-map.geojson'
-    })
+    });
     map.addLayer({
         'id': 'points',
         'type': 'symbol',
