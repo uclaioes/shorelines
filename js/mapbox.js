@@ -17,11 +17,6 @@ var map = new mapboxgl.Map({
     maxBounds: maxBounds
 });
 
-// disable map rotation using right click + drag
-map.dragRotate.disable();
-// disable map rotation using touch rotation gesture
-map.touchZoomRotate.disableRotation();
-
 // Load GeoJSON Layer
 map.on('load', function () {
     // Load Custom Icon
