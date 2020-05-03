@@ -19,25 +19,19 @@ var map = new mapboxgl.Map({
 
 // Load GeoJSON Layer
 map.on('load', function() {
-	map.addSource('points', {
+    map.loadImage(
+        'https://drb326.github.io/cb-site/icons/eco2-alt.png',
+        function (error, image) {
+            if (error) throw error;
+            map.addImage('custom-marker', image);
+        });
+    map.addSource('points', {
 		'type': 'geojson',
 		'data': {
 			'type': 'FeatureCollection',
-			'features': [{
-				// feature for Mapbox DC
-				'type': 'Feature',
-				'geometry': {
-					'type': 'Point',
-					'coordinates': [
-						-77.03238901390978,
-						38.913188059745586
-					]
-				},
-				'properties': {
-					'title': 'Mapbox DC',
-					'icon': 'icons/eco2-alt.png'
-				}
-			}]
+			'features': [
+                
+            ]
 		}
 	})
 	map.addLayer({
@@ -47,7 +41,8 @@ map.on('load', function() {
 		'layout': {
 			// get the icon name from the source's "icon" property
 			// concatenate the name to get an icon from the style's sprite sheet
-			'icon-image': ['get', 'icon'],
+			'icon-image': 'custom-marker',
+            'icon-size': 0.2,
 			// get the title name from the source's "title" property
 			'text-field': ['get', 'title'],
 			'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
