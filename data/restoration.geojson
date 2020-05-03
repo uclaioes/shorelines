@@ -13,7 +13,7 @@
     "Institute":"Bay Foundation",
     "Year":"Ongoing",
     "Ecosystem":"Kelp Forest",
-    "Description":"Restored 46 acres of kelp forest through reducing sea urchin density of the Palos Verdes Peninsula in Los Angeles County. Observed increase in ecosystem biomass and biodiversity of kelp, invertebrate, and fish populations in restoration sites. ",
+    "Description":"Restored 46 acres of kelp forest through reducing sea urchin density of the Palos Verdes Peninsula in Los Angeles County. Observed increase in ecosystem biomass and biodiversity of kelp, invertebrate, and fish populations in restoration sites.",
     "Link":"https://www.santamonicabay.org/explore/in-the-ocean/kelp-forest-restoration/"
     }
   },
@@ -24,7 +24,7 @@
        "coordinates":  [ -76.5826,38.1577 ]
     },
     "properties": {
-    "id":5,
+    "id":2,
     "Name":"Potomac River",
     "Institute":"Chesapeake Bay Program",
     "Year":"2003-2005",
@@ -40,12 +40,12 @@
        "coordinates":  [ -122.1485,37.6096 ]
     },
     "properties": {
-    "id":9,
+    "id":3,
     "Name":"San Francisco Bay: Hayward",
     "Institute":"Coastal Conservancy",
     "Year":"2011-2017",
     "Ecosystem":"Seagrass & Oyster",
-    "Description":"Planted combinations of eelgrass units and different oyster substrate units to assess biological and physical effects of treatment plots. Overall: Eelgrass transplanted from Point Molate was more successful than donors from Point San Pablo due to similar muddy conditions effects of treatment plots. Overall: Eelgrass transplanted from Point Molate was more successful than donors from Point San Pablo due to similar muddy conditios",
+    "Description":"Planted combinations of eelgrass units and different oyster substrate units to assess�biological and physical effects of treatment plots. Overall: Eelgrass transplanted from Point Molate was more successful than donors from Point San Pablo due to similar muddy conditions effects of treatment plots. Overall: Eelgrass transplanted from Point Molate was more successful than donors from Point San Pablo due to similar muddy conditions",
     "Link":"https://scc.ca.gov/webmaster/ftp/pdf/restore-shoreline/sfbay-living-shorline-project-052412.pdf"
     }
   },
@@ -56,12 +56,12 @@
        "coordinates":  [ -122.4937,37.9682 ]
     },
     "properties": {
-    "id":10,
+    "id":4,
     "Name":"San Francisco Bay: San Rafael",
     "Institute":"Coastal Conservancy",
     "Year":"2011-2017",
     "Ecosystem":"Seagrass & Oyster",
-    "Description":"Planted combinations of eelgrass units and different oyster substrate units to assess biological and physical",
+    "Description":"Planted combinations of eelgrass units and different oyster substrate units to assess�biological and physical",
     "Link":"https://scc.ca.gov/webmaster/ftp/pdf/restore-shoreline/sfbay-living-shorline-project-052412.pdf"
     }
   },
@@ -72,12 +72,12 @@
        "coordinates":  [ -72.1842,41.1888 ]
     },
     "properties": {
-    "id":12,
+    "id":5,
     "Name":"Eastern Long Island Sound",
     "Institute":"Cornell Cooperative Extension Marine Program",
     "Year":"2008-2010",
     "Ecosystem":"Seagrass",
-    "Description":"Restoration activities conducted have proven that eelgrass plantings are possible and effective in establishing persistent meadows in Long Island Sound. ",
+    "Description":"Restoration activities conducted have proven that eelgrass plantings are possible and effective in establishing persistent meadows in Long Island Sound.",
     "Link":"http://www.seagrassli.org/restoration/projects/nfwf.html"
     }
   },
@@ -88,12 +88,12 @@
        "coordinates":  [ -94.9502,29.2631 ]
     },
     "properties": {
-    "id":4,
+    "id":6,
     "Name":"West Galveston Bay",
     "Institute":"Galveston Bay Foundation",
     "Year":"1994-1995",
     "Ecosystem":"Seagrass",
-    "Description":"One successful and one unsuccessful transplant of seagrass. Shallow and denser shoot plantings showed more success, with the healthy beds being able to be used for future projects as a donor site. ",
+    "Description":"One successful and one unsuccessful transplant of seagrass. Shallow and denser shoot plantings showed more success, with the healthy beds being able to be used for future projects as a donor site.",
     "Link":"https://www.ser-rrc.org/project/usa-texas-west-galveston-bay-seagrass-restoration/"
     }
   },
@@ -104,12 +104,12 @@
        "coordinates":  [ -70.974,42.3367 ]
     },
     "properties": {
-    "id":6,
+    "id":7,
     "Name":"Boston Harbor",
     "Institute":"Massachusetts Division Of Marine Fisheries",
     "Year":"2004-2007",
-    "Ecosystem":"Seagrass ",
-    "Description":"Favorable results in seeding locations on island sites in Boston Harbor, mainland Boston Harbor locations were unsuitable for restoration during the project because of sediment quality issues related to organic loading. The study also tested advantages and disadvantages relating to hand- and frame-planting of seagrass. ",
+    "Ecosystem":"Seagrass",
+    "Description":"Favorable results in seeding locations on island sites in Boston Harbor, mainland Boston Harbor locations were unsuitable for restoration during the project because of sediment quality issues related to organic loading. The study also tested advantages and disadvantages relating to hand- and frame-planting of seagrass.",
     "Link":"https://www.ser-rrc.org/project/usa-massachusetts-boston-harbor-eelgrass-restoration/"
     }
   },
@@ -120,12 +120,12 @@
        "coordinates":  [ -117.2317,32.7712 ]
     },
     "properties": {
-    "id":16,
+    "id":8,
     "Name":"Mission Bay",
     "Institute":"Merkel & Associates, Inc; City Of San Diego",
     "Year":"2016",
     "Ecosystem":"Eelgrass",
-    "Description":"Replanting eelgrass in order to mitigate negative impacts to eelgrass habitat from maintenance dredging. ",
+    "Description":"Replanting eelgrass in order to mitigate negative impacts to eelgrass habitat from maintenance dredging.",
     "Link":"https://www.sandiego.gov/sites/default/files/dsderp_pts520687_03.pdf"
     }
   },
@@ -136,12 +136,12 @@
        "coordinates":  [ -80.2455,25.5662 ]
     },
     "properties": {
-    "id":3,
+    "id":9,
     "Name":"Biscayne Bay",
     "Institute":"Port Of Miami Expansion Program",
     "Year":"1987",
     "Ecosystem":"Seagrass",
-    "Description":"Four large scale attempts at seagrass restoration using three different species and three distinct planting techniques. All areas experienced successful growth and spreading of seagrass populations and observed rapid colonization by animals, including both fishery and other food web species. Estimated value of $9 million added by recovering productive bay area. ",
+    "Description":"Four large scale attempts at seagrass restoration using three different species and three distinct planting techniques. All areas experienced successful growth and spreading of seagrass populations and observed rapid colonization by animals, including both fishery and other food web species. Estimated value of $9 million added by recovering productive bay area.",
     "Link":"https://www.sciencedirect.com/science/article/abs/pii/0025326X87906217"
     }
   },
@@ -152,12 +152,12 @@
        "coordinates":  [ -71.4436,41.5781 ]
     },
     "properties": {
-    "id":15,
+    "id":10,
     "Name":"Wickford Harbor",
     "Institute":"Save The Bay; University Of Rhode Island",
     "Year":"2002",
-    "Ecosystem":"Seagrass ",
-    "Description":"Eelgrass transplant near an existing eelgrass bed in Wickford Harbor, Rhode Island. Aimed to raise public awareness and experiment with transplant methodology. ",
+    "Ecosystem":"Seagrass",
+    "Description":"Eelgrass transplant near an existing eelgrass bed in Wickford Harbor, Rhode Island. Aimed to raise public awareness and experiment with transplant methodology.",
     "Link":"http://www.edc.uri.edu/restoration/html/intro/sea.htm"
     }
   },
@@ -168,7 +168,7 @@
        "coordinates":  [ -117.3199,33.1414 ]
     },
     "properties": {
-    "id":7,
+    "id":11,
     "Name":"Agua Hedionada Lagoon",
     "Institute":"Southern California Caulerpa Taxifolia Eradication Program",
     "Year":"2000-2005",
@@ -184,8 +184,8 @@
        "coordinates":  [ -82.5436,27.7633 ]
     },
     "properties": {
-    "id":8,
-    "Name":"Tampa Bay ",
+    "id":12,
+    "Name":"Tampa Bay",
     "Institute":"Tampa Bay Estuary Program",
     "Year":"Ongoing",
     "Ecosystem":"Seagrass",
@@ -204,8 +204,8 @@
     "Name":"Huntington Harbor",
     "Institute":"Town Of Huntington And Cornell Cooperative Extension Marine Program",
     "Year":"2004-2006",
-    "Ecosystem":"Eelgrass & Bay Scallops ",
-    "Description":"Restoration of eelgrass and bay scallops at several different sites in the greater Huntington Northport Bay Complex using adult shoot transplant and seeding methods to improve their survival. ",
+    "Ecosystem":"Eelgrass & Bay Scallops",
+    "Description":"Restoration of eelgrass and bay scallops at several different sites in the greater Huntington Northport Bay Complex using adult shoot transplant and seeding methods to improve their survival.",
     "Link":"http://www.seagrassli.org/restoration/projects/hharbor.html"
     }
   },
@@ -218,9 +218,9 @@
     "properties": {
     "id":14,
     "Name":"Peconic Estuary",
-    "Institute":"Town Of Shelter Island  And Cornell Cooperative Extension Marine Program",
+    "Institute":"Town Of Shelter Island� And Cornell Cooperative Extension Marine Program",
     "Year":"2004-2007",
-    "Ecosystem":"Seagrass ",
+    "Ecosystem":"Seagrass",
     "Description":"Project involved transplanting adult shoots and using various densities to determine the most effective methods. Planting into circular 1m2  plots at a density of 200 shoots/m2 was shown to be the best method.",
     "Link":"http://www.seagrassli.org/restoration/projects/pe1.html"
     }
@@ -232,12 +232,12 @@
        "coordinates":  [ -75.8364,37.3685 ]
     },
     "properties": {
-    "id":2,
-    "Name":"Virginia’s Eastern Shore",
+    "id":15,
+    "Name":"Virginia�s Eastern Shore",
     "Institute":"Virginia Coastal Zone Management Program",
     "Year":"1998",
     "Ecosystem":"Seagrass",
-    "Description":"Restoration project ongoing since 1998 on the Atlantic side of Virginia’s Eastern Shore. Seagrass restoration wass carried out by transplanting seeds in a process called “seed broadcasting” from healthy communities. By 2013, over five thousand acres of seagrass beds were restored. ",
+    "Description":"Restoration project ongoing since 1998 on the Atlantic side of Virginia�s Eastern Shore. Seagrass restoration wass carried out by transplanting seeds in a process called �seed broadcasting� from healthy communities. By 2013, over five thousand acres of seagrass beds were restored.",
     "Link":"https://www.deq.virginia.gov/Programs/CoastalZoneManagement/CZMIssuesInitiatives/SeaGrass.aspx"
     }
   },
@@ -248,12 +248,12 @@
        "coordinates":  [ -75.0795,38.6292 ]
     },
     "properties": {
-    "id":11,
-    "Name":"Delaware Inland Bays ",
+    "id":16,
+    "Name":"Delaware Inland Bays",
     "Institute":"Virginia Institute Of Marine Science",
     "Year":"1990",
     "Ecosystem":"Seagrass",
-    "Description":"Two acres of eelgrass sanctuary/nursery was established within the Rehoboth and Indian River Bays. The seeds and rhizomes were collected from eelgrass beds in Virginia. ",
+    "Description":"Two acres of eelgrass sanctuary/nursery was established within the Rehoboth and Indian River Bays. The seeds and rhizomes were collected from eelgrass beds in Virginia.",
     "Link":"http://sagecoast.vims.edu/info/searchdetail.php?recid=DE01"
     }
   }
