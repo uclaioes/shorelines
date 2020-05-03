@@ -38,7 +38,7 @@ body {
 
 /** Remove Rounded Corners **/
 * {
-  border-radius: 0 !important;
+    border-radius: 0 !important;
 }
 
 /** Hyperlinks **/
@@ -215,12 +215,17 @@ h3 {
     background-color: var(--light-grey);
 }
 
+.mapboxgl-popup-close-button {
+    display: none;
+}
+
 /** Project List **/
 #project-list .subheading {
     color: var(--light-green);
     font-style: italic;
     font-size: 1.1rem;
 }
+
 #project-list .year {
     font-weight: bold;
 }
