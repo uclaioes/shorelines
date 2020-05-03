@@ -45,10 +45,10 @@ map.on('load', function() {
 	// location of the feature, with Description HTML from its properties.
 	map.on('click', 'points', function(e) {
 		var coordinates = e.features[0].geometry.coordinates.slice();
-        var name = e.features[0].properties.Name;
+		var name = e.features[0].properties.Name;
 		var description = e.features[0].properties.Description;
-        var link = e.features[0].properties.Link;
-        
+		var link = e.features[0].properties.Link;
+
 		// Ensure that if the map is zoomed out such that multiple
 		// copies of the feature are visible, the popup appears
 		// over the copy being pointed to.
@@ -58,7 +58,7 @@ map.on('load', function() {
 
 		new mapboxgl.Popup()
 			.setLngLat(coordinates)
-			.setHTML('<h6><a href="'+link+'" target="_blank">'+name+'</a></h6>'+description)
+			.setHTML('<h6><a href="' + link + '" target="_blank">' + name + '</a></h6>' + description)
 			.addTo(map);
 	});
 
