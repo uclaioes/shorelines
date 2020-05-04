@@ -26,7 +26,7 @@ map.touchZoomRotate.disableRotation();
 map.on('load', function () {
     // Load Custom Icon
     map.loadImage(
-        '../icons/eco2-alt.png',
+        './icons/eco2-alt.png',
         function (error, image) {
             if (error) throw error;
             map.addImage('custom-marker', image);
@@ -34,7 +34,7 @@ map.on('load', function () {
     // Load Location Data
     map.addSource('points', {
         'type': 'geojson',
-        'data': '../data/restoration.geojson'
+        'data': './data/restoration.geojson'
     });
     // Add Location Points to Map
     map.addLayer({
@@ -65,7 +65,7 @@ map.on('load', function () {
             .setHTML('<h6><a href="' + link + '" target="_blank">' + name + '</a></h6>' + description)
             .addTo(map);
     });
-    
+
 
     // Change the cursor to a pointer when the mouse is over the places layer.
     map.on('mouseenter', 'points', function () {
