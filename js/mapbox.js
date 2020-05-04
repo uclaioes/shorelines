@@ -22,6 +22,9 @@ map.dragRotate.disable();
 // disable map rotation using touch rotation gesture
 map.touchZoomRotate.disableRotation();
 
+//Create Map Extent for GeoJSON
+var bbox = turf.extent(geojson);
+
 // Load GeoJSON Layer
 map.on('load', function () {
     // Load Custom Icon
@@ -65,6 +68,11 @@ map.on('load', function () {
             .setHTML('<h6><a href="' + link + '" target="_blank">' + name + '</a></h6>' + description)
             .addTo(map);
     });
+
+    //Fit Map to GeoJSON 
+    function fit() {
+        map.fitBounds(bbox, {padding: 20});
+    }
 
     // Change the cursor to a pointer when the mouse is over the places layer.
     map.on('mouseenter', 'points', function () {
