@@ -26,7 +26,7 @@ map.touchZoomRotate.disableRotation();
 map.on('load', function () {
     // Load Custom Icon
     map.loadImage(
-        './icons/eco2-alt.png',
+        '../icons/eco2-alt.png',
         function (error, image) {
             if (error) throw error;
             map.addImage('custom-marker', image);
@@ -34,7 +34,7 @@ map.on('load', function () {
     // Load Location Data
     map.addSource('points', {
         'type': 'geojson',
-        'data': './data/restoration.geojson'
+        'data': '../data/restoration.geojson'
     });
     // Add Location Points to Map
     map.addLayer({
