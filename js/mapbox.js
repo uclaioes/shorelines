@@ -53,6 +53,9 @@ map.on('load', function () {
         var name = e.features[0].properties.Name;
         var description = e.features[0].properties.Description;
         var link = e.features[0].properties.Link;
+	   var ecosystem = e.features[0].properties.Ecosystem;
+	   var year = e.features[0].properties.Year;
+	   var institute = e.features[0].properties.Institute;
 
         // Ensure that if the map is zoomed out such that multiple
         // copies of the feature are visible, the popup appears
@@ -62,10 +65,9 @@ map.on('load', function () {
         }
         new mapboxgl.Popup()
             .setLngLat(coordinates)
-            .setHTML('<h6><a href="' + link + '" target="_blank">' + name + '</a></h6>' + description)
+            .setHTML('<h6><a href="' + link + '" target="_blank">' + institute + '</a></h6><h5>' + ecosystem + '</h5><p>' + year + '</p>')
             .addTo(map);
     });
-
 
     // Change the cursor to a pointer when the mouse is over the places layer.
     map.on('mouseenter', 'points', function () {
