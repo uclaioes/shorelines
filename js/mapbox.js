@@ -53,9 +53,9 @@ map.on('load', function () {
         var name = e.features[0].properties.Name;
         var description = e.features[0].properties.Description;
         var link = e.features[0].properties.Link;
-	   var ecosystem = e.features[0].properties.Ecosystem;
-	   var year = e.features[0].properties.Year;
-	   var institute = e.features[0].properties.Institute;
+        var ecosystem = e.features[0].properties.Ecosystem;
+        var year = e.features[0].properties.Year;
+        var institute = e.features[0].properties.Institute;
 
         // Ensure that if the map is zoomed out such that multiple
         // copies of the feature are visible, the popup appears
