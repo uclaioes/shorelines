@@ -65,7 +65,7 @@ map.on('load', function () {
         }
         new mapboxgl.Popup()
             .setLngLat(coordinates)
-            .setHTML('<h6><a href="' + link + '" target="_blank">' + name + '</a></h6><h5>' + ecosystem + '</h5><h6>' + year + '</h6>')
+            .setHTML('<h5><a href="' + link + '" target="_blank">' + name + '</a></h5><h6>' + ecosystem + '</h6><h6>' + year + '</h6>' + institute)
             .addTo(map);
     });
 
