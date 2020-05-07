@@ -215,14 +215,18 @@ h3 {
 	background-color: var(--light-grey);
 }
 
+.mapboxgl-popup {
+    font-family: var(--font-family);
+}
+
 /** Project List **/
-#project-list .subheading {
+.subheading {
 	color: var(--light-green);
 	font-style: italic;
 	font-size: 1.1rem;
 }
 
-#project-list .year {
+.year {
 	font-weight: bold;
 }
 
