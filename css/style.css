@@ -217,16 +217,11 @@ h3 {
 
 .mapboxgl-popup {
     font-family: var(--font-family);
+    font-size: 1rem;
 }
 
 /** Project List **/
 .subheading {
-	color: var(--light-green);
-	font-style: italic;
-	font-size: 1.1rem;
-}
-
-ecosystem {
 	color: var(--light-green);
 	font-style: italic;
 }

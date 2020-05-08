@@ -49,6 +49,7 @@ map.on('load', function () {
     });
     // Add Popups to Map
     map.on('click', 'points', function (e) {
+        var id = e.features[0].properties.id;
         var coordinates = e.features[0].geometry.coordinates.slice();
         var name = e.features[0].properties.Name;
         var description = e.features[0].properties.Description;
@@ -65,7 +66,7 @@ map.on('load', function () {
         }
         new mapboxgl.Popup()
             .setLngLat(coordinates)
-            .setHTML('<h5><a href="' + link + '" target="_blank">' + name + '</a></h5><h6>' + ecosystem + '</h6><h6>' + year + '</h6>')
+            .setHTML('<h5><a href="#project' + id + '" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="project"' + id + '">' + name + '</a></h5><div class="subheading">' + ecosystem + '</div><div class="year">' + year + '</div>')
             .addTo(map);
     });
 
