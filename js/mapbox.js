@@ -74,7 +74,6 @@ map.on('load', function () {
             .addTo(map);
         
         // Set Popup close event
-        // Consider changing to .mapbox-gl-popup-close onclick
         popup.on('close', function() {
             map.setZoom(3);
             map.panTo([-98.5795, 39.8283]);
