@@ -73,8 +73,11 @@ map.on('load', function () {
             .setHTML('<h5><a href="#project' + id + '" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="project"' + id + '">' + name + '</a></h5><div class="subheading">' + ecosystem + '</div><div class="year">' + year + '</div>')
             .addTo(map);
         
+        // Set Popup close event
+        // Consider changing to .mapbox-gl-popup-close onclick
         popup.on('close', function() {
-            // do what you need to do!
+            map.setZoom(3);
+            map.panTo([-98.5795, 39.8283]);
         });
     });
 
