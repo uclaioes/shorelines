@@ -49,6 +49,10 @@ map.on('load', function () {
     });
     // Add Popups to Map
     map.on('click', 'points', function (e) {
+        // Map Fly To Center
+        map.flyTo({ center: e.features[0].geometry.coordinates, zoom: 6 });
+        
+        // Define Variables from GeoJSON
         var id = e.features[0].properties.id;
         var coordinates = e.features[0].geometry.coordinates.slice();
         var name = e.features[0].properties.Name;
