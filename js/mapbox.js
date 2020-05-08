@@ -68,10 +68,14 @@ map.on('load', function () {
         while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
             coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
         }
-        new mapboxgl.Popup()
+        var popup = new mapboxgl.Popup()
             .setLngLat(coordinates)
             .setHTML('<h5><a href="#project' + id + '" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="project"' + id + '">' + name + '</a></h5><div class="subheading">' + ecosystem + '</div><div class="year">' + year + '</div>')
             .addTo(map);
+        
+        popup.on('close', function() {
+            // do what you need to do!
+        });
     });
 
     // Change the cursor to a pointer when the mouse is over the places layer.
