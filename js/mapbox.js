@@ -56,8 +56,8 @@ map.on('load', function () {
     // Add Popups to Map
     map.on('click', 'points', function (e) {
         // Map Fly To Center
-        map.flyTo({ center: e.features[0].geometry.coordinates, zoom: 6 });
-        
+        map.flyTo({ center: e.features[0].geometry.coordinates, zoom: 8 });
+
         // Define Variables from GeoJSON
         var id = e.features[0].properties.id;
         var coordinates = e.features[0].geometry.coordinates.slice();
@@ -78,12 +78,12 @@ map.on('load', function () {
             .setLngLat(coordinates)
             .setHTML('<h5><a href="#project' + id + '" data-toggle="modal" data-target="#projectModal' + id + '" role="button">' + name + '</a></h5><div class="subheading">' + ecosystem + '</div><div class="year">' + year + '</div>')
             .addTo(map);
-        
+
         // Close open Cards on Popup close
         popup.on('close', function() {
             $('.collapse').collapse('hide');
         });
-        
+
         // Reset Map Button
         let resetmap = document.getElementById('reset');
         resetmap.addEventListener('click', function (e) {
