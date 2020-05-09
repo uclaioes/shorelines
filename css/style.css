@@ -260,6 +260,25 @@ h3 {
 }
 
 /** Library **/
+#library .media h5 [aria-expanded='false']:before {
+    font-family: 'FontAwesome';
+    font-size: 1rem;
+    content: "\f0da";
+    padding-right: 0.5rem;
+}
+
+#library .media h5 [aria-expanded='true']:before {
+    font-family: 'FontAwesome';
+    font-size: 1rem;
+    content: "\f0d7";
+    padding-right: 0.5rem;
+}
+
+#library .media h5 [aria-expanded='false']:hover,
+#library .media h5 [aria-expanded='true']:hover {
+    text-decoration: none;
+}
+
 #library h3 {
 	color: var(--darkest-grey);
 }
