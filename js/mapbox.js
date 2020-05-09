@@ -22,11 +22,17 @@ map.dragRotate.disable();
 // disable map rotation using touch rotation gesture
 map.touchZoomRotate.disableRotation();
 
+// Add zoom controls to the map
+map.addControl(new mapboxgl.NavigationControl({
+    // Hide rotation control.
+    showCompass: false
+}));
+
 // Load GeoJSON Layer
 map.on('load', function () {
     // Load Custom Icon
     map.loadImage(
-        './icons/eco2-alt.png',
+        './icons/eco2-alt3.png',
         function (error, image) {
             if (error) throw error;
             map.addImage('custom-marker', image);
@@ -70,14 +76,20 @@ map.on('load', function () {
         }
         var popup = new mapboxgl.Popup()
             .setLngLat(coordinates)
-            .setHTML('<h5><a href="#project' + id + '" onclick="scrollToCard();" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="project"' + id + '">' + name + '</a></h5><div class="subheading">' + ecosystem + '</div><div class="year">' + year + '</div>')
+            .setHTML('<h5><a href="#project' + id + '" onclick="scrolltoCard();" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="project"' + id + '">' + name + '</a></h5><div class="subheading">' + ecosystem + '</div><div class="year">' + year + '</div>')
             .addTo(map);
         
-        // Set Popup close event
+        // Close open Cards on Popup close
         popup.on('close', function() {
-            map.setZoom(3);
-            map.panTo([-98.5795, 39.8283]);
+            $('.collapse').collapse('hide');
         });
+        
+        // Reset Map Button
+        let resetmap = document.getElementById('reset');
+        resetmap.addEventListener('click', function (e) {
+            map.flyTo({center: [-98.5795, 39.8283],zoom: 3});
+            popup.remove();
+        }, false);
     });
 
     // Change the cursor to a pointer when the mouse is over the places layer.

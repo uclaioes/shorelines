@@ -215,6 +215,16 @@ h3 {
 	background-color: var(--light-grey);
 }
 
+#map #reset {
+    position: absolute;
+    z-index: 1;
+    color: var(--white);
+    background: rgba(0,0,0,0.3);
+}
+#map #reset:hover {
+    color: var(--ucla-lightest-blue);
+}
+
 .mapboxgl-popup {
     font-family: var(--font-family);
     font-size: 1rem;
