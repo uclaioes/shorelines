@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Site Metadata + Description -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="As part of UCLA'S Institute of the Environment and Sustainability, we are researching how certain marine restoration projects, involving kelp forests and seagrass beds, can provide various benefits for both the planet and its inhabitants. Our practicum goal is to establish a scientific communications portal for students and researchers to utilize in future restoration efforts.">
+    <!-- Title -->
+    <title>Restoration | Stronger Shorelines</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Mapbox CSS -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div class="container px-0">
+        <nav class="navbar navbar-expand-lg">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+                <img src="img/ioes-alt.svg" class="img-fluid" id="logo" alt="UCLA SEAS" />
+            </a>
+            <!-- Navigation Toggle -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Restoration
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Overview</a>
+                            <a class="dropdown-item" href="#">Methodologies</a>
+                            <a class="dropdown-item active" href="map.html">Project Map</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Interviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="library.html">Library</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Map -->
+    <section>
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-12">
+                    <h2>Project Map</h2>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-xs-12 col-md-12 col-lg-11 mx-auto">
+                    <!-- Project Map -->
+                    <div id="map"><button type="button" class="btn" id="reset">Reset</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Project Modals -->
+    <div id="project-modals"></div>
+
+    <!-- Project List -->
+    <section>
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <h2>Project List</h2>
+                </div>
+            </div>
+            <!-- Projects -->
+            <div class="row" id="project-list"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="seagrass"></div>
+    <footer>
+        <div class="container pt-4">
+            <div class="row">
+                <!-- Logo -->
+                <div class="col-xs-12 col-md-6 py-3">
+                    <div class="media">
+                        <a href="index.html">
+                            <img src="img/ioes-short.svg" class="img-fluid align-self-center mr-3" id="logo-short" alt="UCLA IoES" />
+                        </a>
+                        <div class="media-body">
+                            <h5 class="mt-0">UCLA IoES</h5>
+                            <p class="mb-0">
+                                Donec sed odio dui<br>
+                                Nullam quis risus eget<br>
+                                Cum sociis natoque
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Newsletter -->
+                <div class="col-xs-12 col-md-6 py-3" id="newsletter">
+                    <h5>Newsletter</h5>
+                    <span class="d-block mb-2">Sign up to receive the latest email updates</span>
+                    <form class="form-inline">
+                        <label class="sr-only" for="userEmail">Email</label>
+                        <div class="input-group mb-2 mr-sm-2">
+                            <input type="text" class="form-control" id="userEmail" placeholder="Email Address">
+                        </div>
+                        <button type="submit" class="btn btn-outline-secondary mb-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row pb-3">
+                <!-- Copyright -->
+                <div class="col-xs-12 col-md-12 text-center">
+                    <span id="copyright">Copyright 2020 &copy; UCLA IoES</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Mapbox JS -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js'></script>
+    <!-- Map JS -->
+    <script src="js/mapbox.js"></script>
+    <!-- Project List JS -->
+    <script>
+        // Load Project List Data
+        var projectdata = $.getJSON("data/restoration.geojson", function(projectdata) {
+            // Create Modals
+            projectdata.features.forEach(function(e) {
+                document.getElementById("project-modals").innerHTML += "<div class='modal fade' id='projectModal" + e.properties.id + "' tabindex='-1' role='dialog' aria-hidden='true'><div class='modal-dialog' role='document'><div class='modal-content'><div class='modal-header'><h5 class='modal-title'>" + e.properties.Name + "</h5><button type='button' class='close' data-dismiss='modal' aria-label='Close'><span aria-hidden='true'>&times</span></button></div><div class='modal-body mb-2'><div class='subheading'>" + e.properties.Institute + "</div><div class='year mb-1'>" + e.properties.Year + "</div><p>" + e.properties.Description + "</p><a href='" + e.properties.Link + "' target='_blank' class='btn btn-outline-primary''>Learn More</a></div></div></div></div>";
+            });
+            
+            // Create Project List
+            projectdata.features.forEach(function(e) {
+                document.getElementById("project-list").innerHTML += "<div class='col-xs-12 col-lg-6 mb-3'><div class='card'><div class='card-body'><h5 class='card-title''><a href='#project" + e.properties.id + "' onclick='scrolltoCard();' data-toggle='collapse' role='button' aria-expanded='false' aria-controls='project" + e.properties.id + "'>" + e.properties.Name + "</a></h5><div class='collapse' id='project" + e.properties.id + "' data-parent='#project-list'><div class='subheading'>" + e.properties.Institute + "</div><div class='year mb-1'>" + e.properties.Year + "</div><p class='card-text'>" + e.properties.Description + "</p><a href='" + e.properties.Link + "' target='_blank' class='btn btn-outline-primary''>Learn More</a></div></div></div></div>";
+            });
+        });
+        
+        // Scroll to Card on click
+        function scrolltoCard (){
+            var $window = $(window);
+            var $elementId = event.currentTarget.getAttribute('aria-controls');
+            var $element = '#'+ $elementId;
+            console.log($element)
+            var elementTop = $element.offset().top;
+            var elementHeight = $element.height();
+            var viewportHeight = $window.height();
+            var scrollIt = elementTop - ((viewportHeight - elementHeight) / 2);
+            
+            $('html,body').animate({
+                scrollTop: scrollIt
+            }, 500);
+        };
+    </script>
+</body>
+</html>

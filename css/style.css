@@ -231,6 +231,25 @@ h3 {
 }
 
 /** Project List **/
+.card-title [aria-expanded='false']:before {
+    font-family: 'FontAwesome';
+    font-size: 1rem;
+    content: "\f0da";
+    padding-right: 0.5rem;
+}
+
+.card-title [aria-expanded='true']:before {
+    font-family: 'FontAwesome';
+    font-size: 1rem;
+    content: "\f0d7";
+    padding-right: 0.5rem;
+} 
+
+.card-title [aria-expanded='false']:hover,
+.card-title [aria-expanded='true']:hover {
+    text-decoration: none;
+}
+
 .subheading {
 	color: var(--light-green);
 	font-style: italic;
