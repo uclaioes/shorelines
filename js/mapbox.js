@@ -32,7 +32,7 @@ map.addControl(new mapboxgl.NavigationControl({
 map.on('load', function () {
     // Load Custom Icon
     map.loadImage(
-        './icons/eco2-alt.png',
+        './icons/seagrass.png',
         function (error, image) {
             if (error) throw error;
             map.addImage('custom-marker', image);
@@ -56,7 +56,7 @@ map.on('load', function () {
     // Add Popups to Map
     map.on('click', 'points', function (e) {
         // Map Fly To Center
-        map.flyTo({ center: e.features[0].geometry.coordinates, zoom: 8 });
+        map.flyTo({ center: e.features[0].geometry.coordinates, zoom: 7 });
 
         // Define Variables from GeoJSON
         var id = e.features[0].properties.id;
