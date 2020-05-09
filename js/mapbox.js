@@ -32,7 +32,7 @@ map.addControl(new mapboxgl.NavigationControl({
 map.on('load', function () {
     // Load Custom Icon
     map.loadImage(
-        './icons/eco2-alt3.png',
+        './icons/eco2-alt.png',
         function (error, image) {
             if (error) throw error;
             map.addImage('custom-marker', image);
@@ -49,7 +49,7 @@ map.on('load', function () {
         'source': 'points',
         'layout': {
             'icon-image': 'custom-marker',
-            'icon-size': 0.2,
+            'icon-size': 1,
             'icon-allow-overlap': true,
         }
     });
