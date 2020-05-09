@@ -243,7 +243,7 @@ h3 {
     font-size: 1rem;
     content: "\f0d7";
     padding-right: 0.5rem;
-} 
+}
 
 .card-title [aria-expanded='false']:hover,
 .card-title [aria-expanded='true']:hover {
@@ -267,6 +267,10 @@ h3 {
 #library h4 {
 	font-size: 1rem;
 	color: var(--dark-grey);
+}
+
+#library .focus {
+	color: var(--light-green);
 }
 
 #libraryNav .list-group-item {
