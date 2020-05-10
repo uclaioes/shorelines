@@ -278,6 +278,7 @@ h3 {
 #methodologies .case-text {
 	color: var(--dark-grey);
 }
+
 /** Library **/
 #library .media h5 [aria-expanded='false']:before {
     font-family: 'FontAwesome';
