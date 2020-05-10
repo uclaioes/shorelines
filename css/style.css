@@ -265,11 +265,6 @@ h3 {
     color: var(--darkest-grey);
 }
 
-#methodologies .tab-content {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
 #methodologies .case-title {
 	text-align: center;
 }
