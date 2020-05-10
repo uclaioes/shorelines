@@ -173,20 +173,18 @@
         });
         
         // Scroll to Card on click
-        
         function scrolltoCard() {
             var $window = $(window);
             var $element = $(event.currentTarget.getAttribute('href'));
-            var $card = $($element).parent();
+            var $card = $($element).parent().parent();
             var elementTop = $($card).offset().top;
-            var elementHeight = $($element).height();
-            var viewportHeight = $($window).height();
-            var scrollIt = elementTop - ((viewportHeight - elementHeight) / 2);
+            // var elementHeight = $($element).height();
+            // var viewportHeight = $($window).height();
+            // var scrollIt = elementTop - ((viewportHeight - elementHeight) / 2);
             $('html,body').animate({
-                scrollTop: scrollIt
+                scrollTop: elementTop
             }, 500);
         };
-        
     </script>
 </body>
 
