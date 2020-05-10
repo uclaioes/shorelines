@@ -263,9 +263,6 @@ h3 {
 #methodologies h3 {
     font-size: 1.5rem;
     color: var(--darkest-grey);
-    text-decoration: underline;
-	text-decoration-color: var(--lightest-green);
-    text-align: center;
 }
 
 /** Library **/
