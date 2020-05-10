@@ -259,6 +259,15 @@ h3 {
 	font-weight: bold;
 }
 
+/** Methodologies **/
+#methodologies h3 {
+    font-size: 1.5rem;
+    color: var(--darkest-grey);
+    text-decoration: underline;
+	text-decoration-color: var(--lightest-green);
+    text-align: center;
+}
+
 /** Library **/
 #library .media h5 [aria-expanded='false']:before {
     font-family: 'FontAwesome';
