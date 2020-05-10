@@ -265,6 +265,19 @@ h3 {
     color: var(--darkest-grey);
 }
 
+#methodologies .case-title {
+	text-align: center;
+}
+
+#methodologies .case-title a {
+	color: var(--light-green);
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+#methodologies .case-text {
+	color: var(--dark-grey);
+}
 /** Library **/
 #library .media h5 [aria-expanded='false']:before {
     font-family: 'FontAwesome';
