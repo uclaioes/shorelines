@@ -266,16 +266,6 @@ h3 {
 	color: var(--darkest-grey);
 }
 
-#methodologies ul {
-	list-style-type: square;
-}
-
-#methodologies ul li {
-	font-family: var(--font-family);
-	font-size: 0.9rem;
-	color: var(--dark-grey);
-}
-
 #methodologies .case-title {
 	text-align: center;
 }
@@ -287,6 +277,15 @@ h3 {
 
 #methodologies .case-text {
 	color: var(--dark-grey);
+}
+
+#methodologies ul {
+	list-style-type: square;
+}
+
+#methodologies ul li {
+	font-size: 0.9rem;
+    color: var(--dark-grey);
 }
 
 /** Library **/
@@ -320,6 +319,15 @@ h3 {
 
 #library .focus {
 	color: var(--light-green);
+}
+
+#library ul.sub-list {
+    list-style-type: square; 
+}
+
+#library ul.sub-list li {
+	font-size: 0.9rem;
+    color: var(--dark-grey);
 }
 
 #libraryNav .list-group-item {
