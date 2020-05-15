@@ -217,13 +217,14 @@ h3 {
 
 #map #reset {
 	position: absolute;
+    margin: 10px;
 	z-index: 1;
-	color: var(--white);
-	background: rgba(0, 0, 0, 0.3);
+	color: var(--darkest-grey);
+	background: var(--white);
 }
 
 #map #reset:hover {
-	color: var(--ucla-lightest-blue);
+	background: var(--light-grey);
 }
 
 .mapboxgl-popup {
