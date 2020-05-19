@@ -314,8 +314,9 @@ h3 {
 }
 
 #library h4 {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	color: var(--dark-grey);
+	font-weight: 600;
 }
 
 #library .focus {
@@ -323,7 +324,7 @@ h3 {
 }
 
 #library ul.sub-list {
-    list-style-type: square; 
+    list-style-type: square;
 }
 
 #library ul.sub-list li {
