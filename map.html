@@ -33,43 +33,43 @@
 </head>
 
 <body>
-    <!-- Navigation -->
-    <div class="container px-0">
-        <nav class="navbar navbar-expand-lg">
-            <!-- Logo -->
-            <a class="navbar-brand" href="index.html">
-                <img src="img/ioes-alt.svg" class="img-fluid" id="logo" alt="UCLA SEAS" />
-            </a>
-            <!-- Navigation Toggle -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Navigation Links -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Restoration
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Overview</a>
-                            <a class="dropdown-item" href="methodologies.html">Methodologies</a>
-                            <a class="dropdown-item active" href="map.html">Project Map</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Interviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="library.html">Library</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+	<!-- Navigation -->
+	<div class="container px-0">
+	    <nav class="navbar navbar-expand-lg">
+		   <!-- Logo -->
+		   <a class="navbar-brand" href="index.html">
+			  <img src="img/ioes-alt.svg" class="img-fluid" id="logo" alt="UCLA SEAS" />
+		   </a>
+		   <!-- Navigation Toggle -->
+		   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+			  <span class="navbar-toggler-icon"></span>
+		   </button>
+		   <!-- Navigation Links -->
+		   <div class="collapse navbar-collapse" id="navbarNav">
+			  <ul class="navbar-nav ml-auto">
+				 <li class="nav-item">
+					<a class="nav-link" href="about.html">About</a>
+				 </li>
+			   <li class="nav-item">
+				  <a class="nav-link active" href="map.html">Map</a>
+			   </li>
+				 <li class="nav-item">
+					<a class="nav-link" href="#">Interviews</a>
+				 </li>
+			   <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    Resources
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					    <a class="dropdown-item" href="#">Ecology</a>
+					    <a class="dropdown-item" href="methodologies.html">Methodologies</a>
+					    <a class="dropdown-item" href="library.html">Library</a>
+					</div>
+				 </li>
+			  </ul>
+		   </div>
+	    </nav>
+	</div>
 
     <!-- Map -->
     <section>
@@ -171,7 +171,7 @@
                 document.getElementById("project-list").innerHTML += "<div class='col-xs-12 col-lg-6 mb-3'><div class='card'><div class='card-body'><h5 class='card-title'><a href='#project" + e.properties.id + "' onclick='scrolltoCard();' data-toggle='collapse' role='button' aria-expanded='false' aria-controls='project" + e.properties.id + "'>" + e.properties.Name + "</a></h5><div class='collapse' id='project" + e.properties.id + "'><div class='subheading'>" + e.properties.Institute + "</div><div class='year mb-1'>" + e.properties.Year + "</div><p class='card-text'>" + e.properties.Description + "</p><a href='" + e.properties.Link + "' target='_blank' class='btn btn-outline-primary''>Learn More</a></div></div></div></div>";
             });
         });
-        
+
         // Scroll to Card on click
         function scrolltoCard() {
             var $window = $(window);
