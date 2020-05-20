@@ -314,10 +314,18 @@ h3 {
 	text-decoration: none;
 }
 
+#library img-fluid {
+	height: auto;
+	max-width: 100%
+}
+
 #library h3 {
 	color: var(--darkest-grey);
 }
 
+#library h4 {
+	font-size: 1.2rem;
+}
 #library .focus {
 	color: var(--light-green);
 }
@@ -327,6 +335,11 @@ h3 {
 }
 
 #library ul.sub-list li {
+	font-size: 0.9rem;
+    color: var(--dark-grey);
+}
+
+#library ol li {
 	font-size: 0.9rem;
     color: var(--dark-grey);
 }
