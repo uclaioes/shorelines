@@ -49,19 +49,8 @@ map.on('load', function () {
         'source': 'points',
         'layout': {
             'icon-image': 'custom-marker',
-            'icon-size': 0.8,
+            'icon-size': ['interpolate', ['linear'], ['zoom'],3,0.8,7,1],
             'icon-allow-overlap': true,
-        }
-    });
-    
-    // Change Icon Size with Zoom
-    map.on('zoomend', function() {
-        var currentZoom = map.getZoom();
-        if (currentZoom <= 3) {
-            map.setLayoutProperty('points','icon-size',0.8);
-        }
-        else {
-            map.setLayoutProperty('points','icon-size',1);
         }
     });
     
