@@ -314,11 +314,6 @@ h3 {
 	text-decoration: none;
 }
 
-#library img-fluid {
-	height: auto;
-	max-width: 100%
-}
-
 #library h3 {
 	color: var(--darkest-grey);
 }
