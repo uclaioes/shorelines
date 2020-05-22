@@ -76,7 +76,7 @@
         <div class="container py-3">
             <div class="row">
                 <div class="col-xs-12 col-md-12 col-lg-12">
-                    <h2>Restoration Project Map</h2>
+                    <h1>Restoration Project Map</h1>
                 </div>
             </div>
             <div class="row mb-3">
@@ -116,7 +116,7 @@
                             <img src="img/ioes-short.svg" class="img-fluid align-self-center mr-3" id="logo-short" alt="UCLA IoES" />
                         </a>
                         <div class="media-body">
-                            <h5 class="mt-0">UCLA IoES</h5>
+                            <div class="mt-0">UCLA IoES</div>
                             <p class="mb-0">
                                 Donec sed odio dui<br>
                                 Nullam quis risus eget<br>
@@ -152,10 +152,10 @@
             projectdata.features.forEach(function(e) {
                 
                 // Create Project Modals
-                document.getElementById("project-modals").innerHTML += "<div class='modal fade' id='projectModal" + e.properties.id + "' tabindex='-1' role='dialog' aria-hidden='true'><div class='modal-dialog' role='document'><div class='modal-content'><div class='modal-header'><h5 class='modal-title'>" + e.properties.Name + "</h5><button type='button' class='close' data-dismiss='modal' aria-label='Close'><span aria-hidden='true'>&times</span></button></div><div class='modal-body mb-2'><div class='subheading'>" + e.properties.Institute + "</div><div class='year mb-1'>" + e.properties.Year + "</div><p>" + e.properties.Description + "</p><a href='" + e.properties.Link + "' target='_blank' class='btn btn-outline-primary''>Learn More</a></div></div></div></div>";
+                document.getElementById("project-modals").innerHTML += "<div class='modal fade' id='projectModal" + e.properties.id + "' tabindex='-1' role='dialog' aria-hidden='true'><div class='modal-dialog' role='document'><div class='modal-content'><div class='modal-header'><div class='modal-title'>" + e.properties.Name + "</div><button type='button' class='close' data-dismiss='modal' aria-label='Close'><span aria-hidden='true'>&times</span></button></div><div class='modal-body mb-2'><div class='focus'>" + e.properties.Institute + "</div><div class='mb-2'>" + e.properties.Year + "</div><p>" + e.properties.Description + "</p><a href='" + e.properties.Link + "' target='_blank' class='btn btn-outline-primary''>Learn More</a></div></div></div></div>";
                 
                 // Create Project List
-                document.getElementById("project-list").innerHTML += "<div class='col-xs-12 col-lg-6 mb-3'><div class='card'><div class='card-body'><h5 class='card-title'><a href='#project" + e.properties.id + "' onclick='scrollToElement();' data-toggle='collapse' role='button' aria-expanded='false' aria-controls='project" + e.properties.id + "'>" + e.properties.Name + "</a></h5><div class='collapse' id='project" + e.properties.id + "'><div class='subheading'>" + e.properties.Institute + "</div><div class='year mb-1'>" + e.properties.Year + "</div><p class='card-text'>" + e.properties.Description + "</p><a href='" + e.properties.Link + "' target='_blank' class='btn btn-outline-primary''>Learn More</a><a href='#map' class='btn btn-outline-primary ml-3' onclick='viewOnMap(this)' data-id='' data-center='" + e.geometry.coordinates + "' data-name='" + e.properties.Name + "' data-ecosystem='" + e.properties.Ecosystem + "' data-year='" + e.properties.Year + "'>View on Map</a></div></div></div></div>";
+                document.getElementById("project-list").innerHTML += "<div class='col-xs-12 col-lg-6 mb-3'><div class='card'><div class='card-body'><div class='card-title'><a href='#project" + e.properties.id + "' onclick='scrollToElement();' data-toggle='collapse' role='button' aria-expanded='false' aria-controls='project" + e.properties.id + "'>" + e.properties.Name + "</a></div><div class='collapse' id='project" + e.properties.id + "'><div class='focus'>" + e.properties.Institute + "</div><div class='mb-2'>" + e.properties.Year + "</div><p class='card-text'>" + e.properties.Description + "</p><a href='" + e.properties.Link + "' target='_blank' class='btn btn-outline-primary''>Learn More</a><a href='#map' class='btn btn-outline-primary ml-3' onclick='viewOnMap(this)' data-id='' data-center='" + e.geometry.coordinates + "' data-name='" + e.properties.Name + "' data-ecosystem='" + e.properties.Ecosystem + "' data-year='" + e.properties.Year + "'>View on Map</a></div></div></div></div>";
             });
         });
         

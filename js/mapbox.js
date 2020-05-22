@@ -80,7 +80,7 @@ map.on('load', function () {
         }
         var popup = new mapboxgl.Popup()
             .setLngLat(coordinates)
-            .setHTML('<h5 class="mt-2"><a href="#project' + id + '" class="popupLink" data-toggle="modal" data-target="#projectModal' + id + '" role="button">' + name + '</a></h5><div class="subheading">' + ecosystem + '</div><div>' + year + '</div><div><a href="#project' + id + '" class="btn btn-outline-primary mt-2" data-toggle="modal" data-target="#projectModal' + id + '" role="button">Info</a></div>')
+            .setHTML('<div class="mt-2"><a href="#project' + id + '" class="popup-title" data-toggle="modal" data-target="#projectModal' + id + '" role="button">' + name + '</a></div><div class="ecosystem mt-1">' + ecosystem + '</div><div><a href="#project' + id + '" class="btn btn-outline-primary mt-3" data-toggle="modal" data-target="#projectModal' + id + '" role="button">Info</a></div>')
             .addTo(map);
 
         // Close open Cards on Popup close

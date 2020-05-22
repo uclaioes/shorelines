@@ -20,7 +20,6 @@
 	--black: #000;
 	--font-family: 'Overpass', Helvetica, Arial, sans-serif;
 	--font-family-display: var(--font-family);
-	--bold: bold;
 }
 
 /** Webpage **/
@@ -80,21 +79,24 @@ a.active {
 
 /** Headings **/
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-weight: var(--bold);
-}
-
-h1,
-h2,
-h3 {
+h2 {
 	color: var(--white);
+    font-weight: bold;
 	text-align: center;
 	text-decoration: underline;
 	text-decoration-color: var(--lightest-green);
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.75rem;
+}
+
+/** Text Styling **/
+.focus {
+	color: var(--green);
+    font-style: italic;
 }
 
 /** Navigation Bar **/
@@ -141,39 +143,9 @@ h3 {
 	font-size: 1rem;
 }
 
-/** Home Page **/
+/** HOME **/
 #about-us p {
 	color: var(--white);
-}
-
-/** Carousel **/
-#carouselHeader .carousel-item-image {
-	height: 375px;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	overflow: hidden;
-}
-
-#carouselHeader .carousel-item-image img.img-carousel {
-	position: absolute;
-	margin: auto;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	height: 100%;
-}
-
-@media (min-width: 768px) {
-	#carouselHeader .carousel-item-image img.img-carousel {
-		width: 100%;
-	}
-}
-
-#carouselHeader .carousel-caption {
-	background-color: rgba(0, 0, 0, 0.3);
-	padding: 1rem 1rem;
 }
 
 /** Jumbotron **/
@@ -196,19 +168,22 @@ h3 {
 	font-style: italic;
 }
 
-/** Team **/
+/** ABOUT **/
 #team {
 	max-width: 1000px;
 	margin: 0 auto;
 }
 
-/** Members **/
-#members h5 {
-	color: var(--light-green);
-	font-style: italic;
+#members .name {
+	font-size: 1.5rem;
 }
 
-/**Map **/
+#members .role {
+	font-size: 1.25rem;
+    color: var(--green);
+}
+
+/** MAP **/
 #map {
 	width: 100%;
 	height: 75vh;
@@ -232,77 +207,90 @@ h3 {
 	font-size: 1rem;
 }
 
-#map .popupLink:hover {
+#map .popup-title {
+    font-size: 1.25rem;
+}
+
+#map .popup-title:hover {
     text-decoration: none;
 }
 
+#map .ecosystem {
+	color: var(--green);
+}
+
+/** Project Modals **/
+.modal-title {
+    font-size: 1.25rem;
+}
+
 /** Project List **/
-.card-title [aria-expanded='false']:before {
+#project-list .card-title {
+    font-size: 1.25rem;
+}
+#project-list .card-title [aria-expanded='false']:before {
 	font-family: 'FontAwesome';
 	font-size: 1rem;
 	content: "\f0da";
 	padding-right: 0.5rem;
 }
 
-.card-title [aria-expanded='true']:before {
+#project-list  .card-title [aria-expanded='true']:before {
 	font-family: 'FontAwesome';
 	font-size: 1rem;
 	content: "\f0d7";
 	padding-right: 0.5rem;
 }
 
-.card-title [aria-expanded='false']:hover,
-.card-title [aria-expanded='true']:hover {
+#project-list  .card-title [aria-expanded='false']:hover,
+#project-list  .card-title [aria-expanded='true']:hover {
 	text-decoration: none;
 }
 
-.subheading {
-	color: var(--light-green);
-	font-style: italic;
+/** INTERVIEWS **/
+#interviews .card-title {
+    font-size: 1.5rem;
+}
+#interviews .focus {
+    font-size: 1.25rem;
 }
 
-.year {
-	font-weight: bold;
-}
-
-/** Ecology **/
-#ecology h3 {
+/** ECOLOGY **/
+#ecology h2 {
 	color: var(--darkest-grey);
 }
 
-/** Methodologies **/
-#methodologies h3 {
-	font-size: 1.5rem;
+/** METHODS **/
+#methods h2 {
 	color: var(--darkest-grey);
 }
 
-#methodologies .nav-tabs .nav-link.active {
-    color: var(--light-green);
+#methods .nav-tabs .nav-link.active {
+    color: var(--green);
 }
 
-#methodologies .case-title {
+#methods .case-title {
 	text-align: center;
 }
 
-#methodologies .case-title a {
-	font-size: 1.2rem;
-	font-weight: 500;
+#methods .case-title a {
+	font-size: 1.1rem;
 }
 
-#methodologies .case-text {
+#methods .case-text {
 	color: var(--dark-grey);
 }
 
-#methodologies ul {
+#methods ul {
 	list-style-type: square;
 }
 
-#methodologies ul li {
+#methods ul li {
 	font-size: 0.9rem;
     color: var(--dark-grey);
 }
 
-/** Library **/
+/** LIBRARY **/
 #library .media h5 [aria-expanded='false']:before {
 	font-family: 'FontAwesome';
 	font-size: 1rem;
@@ -326,15 +314,11 @@ h3 {
 	color: var(--darkest-grey);
 }
 
-#library .focus {
-	color: var(--light-green);
-}
-
-#library ul.sub-list {
+#library ul.bullets {
     list-style-type: square;
 }
 
-#library ul.sub-list li {
+#library ul.bullets li {
 	font-size: 0.9rem;
     color: var(--dark-grey);
 }
@@ -355,7 +339,7 @@ h3 {
 	color: var(--white);
 }
 
-/** Footer **/
+/** Seagrass **/
 #seagrass {
 	position: absolute;
 	height: 200px;
@@ -363,6 +347,7 @@ h3 {
 	background: url(../img/seagrass.svg) repeat-x;
 }
 
+/** Footer **/
 footer {
 	color: var(--white);
 	background: linear-gradient(0deg, rgba(105, 80, 25, 1) 76%, rgba(174, 148, 107, 1) 100%);
@@ -371,11 +356,6 @@ footer {
 
 footer #logo-short {
 	max-width: 64px;
-}
-
-footer #newsletter h5 {
-	text-decoration: underline;
-	text-decoration-color: var(--lightest-green);
 }
 
 footer #copyright {
