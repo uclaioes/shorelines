@@ -92,11 +92,8 @@ h1 {
 h2 {
     font-size: 1.75rem;
 }
-
-/** Text Styling **/
-.focus {
-	color: var(--green);
-    font-style: italic;
+h3 {
+    font-size: 1.5rem;
 }
 
 /** Navigation Bar **/
@@ -179,8 +176,9 @@ h2 {
 }
 
 #members .role {
-	font-size: 1.25rem;
     color: var(--green);
+    font-size: 1.25rem;
+    font-style: italic;
 }
 
 /** MAP **/
@@ -223,6 +221,10 @@ h2 {
 .modal-title {
     font-size: 1.25rem;
 }
+.institute {
+	color: var(--green);
+    font-style: italic;
+}
 
 /** Project List **/
 #project-list .card-title {
@@ -251,8 +253,10 @@ h2 {
 #interviews .card-title {
     font-size: 1.5rem;
 }
-#interviews .focus {
+#interviews .foundation {
+    color: var(--green);
     font-size: 1.25rem;
+    font-style: italic;
 }
 
 /** ECOLOGY **/
@@ -291,27 +295,50 @@ h2 {
 }
 
 /** LIBRARY **/
-#library .media h5 [aria-expanded='false']:before {
+#libraryNav .list-group-item {
+	color: var(--ucla-darker-blue);
+	border-color: var(--ucla-darker-blue);
+}
+
+#libraryNav .list-group-item:hover {
+	background: var(--light-green);
+	border-color: var(--light-green);
+	color: var(--white);
+}
+
+#library h2 {
+	color: var(--darkest-grey);
+}
+
+#library h3 {
+    color: var(--green);
+}
+
+#library .media-title {
+    font-size: 1.25rem;
+}
+
+#library .media-title [aria-expanded='false']:before {
 	font-family: 'FontAwesome';
 	font-size: 1rem;
 	content: "\f0da";
 	padding-right: 0.5rem;
 }
 
-#library .media h5 [aria-expanded='true']:before {
+#library .media-title [aria-expanded='true']:before {
 	font-family: 'FontAwesome';
 	font-size: 1rem;
 	content: "\f0d7";
 	padding-right: 0.5rem;
 }
 
-#library .media h5 [aria-expanded='false']:hover,
-#library .media h5 [aria-expanded='true']:hover {
+#library .media-title [aria-expanded='false']:hover,
+#library .media-title [aria-expanded='true']:hover {
 	text-decoration: none;
 }
 
-#library h3 {
-	color: var(--darkest-grey);
+#library .focus {
+	color: var(--green);
 }
 
 #library ul.bullets {
@@ -326,17 +353,6 @@ h2 {
 #library ol li {
 	font-size: 0.9rem;
     color: var(--dark-grey);
-}
-
-#libraryNav .list-group-item {
-	color: var(--ucla-darker-blue);
-	border-color: var(--ucla-darker-blue);
-}
-
-#libraryNav .list-group-item:hover {
-	background: var(--light-green);
-	border-color: var(--light-green);
-	color: var(--white);
 }
 
 /** Seagrass **/
