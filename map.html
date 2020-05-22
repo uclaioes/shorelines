@@ -182,9 +182,9 @@
             // var year = $(viewMapButton).data('year');  
             // Coordinates
             var pointCenter = $(viewMapButton).data('center');
-            var latLng = pointCenter.split(","); 
-            var pointLat = parseFloat(latLng[1]);
-            var pointLng = parseFloat(latLng[0]);
+            var lngLat = pointCenter.split(","); 
+            var pointLng = parseFloat(lngLat[0]);
+            var pointLat = parseFloat(lngLat[1]);
             // Map flyTo
             map.flyTo({center: [pointLng,pointLat],zoom: 10});
             

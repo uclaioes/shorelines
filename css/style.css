@@ -276,6 +276,10 @@ h3 {
 	color: var(--darkest-grey);
 }
 
+#methodologies .nav-tabs .nav-link.active {
+    color: var(--light-green);
+}
+
 #methodologies .case-title {
 	text-align: center;
 }
@@ -346,8 +350,8 @@ h3 {
 }
 
 #libraryNav .list-group-item:hover {
-	background: var(--ucla-blue);
-	border-color: var(--ucla-blue);
+	background: var(--light-green);
+	border-color: var(--light-green);
 	color: var(--white);
 }
 
