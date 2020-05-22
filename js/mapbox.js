@@ -14,7 +14,8 @@ var map = new mapboxgl.Map({
     center: [-98.5795, 39.8283],
     zoom: 3,
     minZoom: 2,
-    maxBounds: maxBounds
+    maxBounds: maxBounds,
+    attributionControl: false
 });
 
 // disable map rotation using right click + drag
@@ -22,6 +23,8 @@ map.dragRotate.disable();
 // disable map rotation using touch rotation gesture
 map.touchZoomRotate.disableRotation();
 
+// Add full screen control to map
+map.addControl(new mapboxgl.FullscreenControl());
 // Add zoom controls to the map
 map.addControl(new mapboxgl.NavigationControl({
     // Hide rotation control.
