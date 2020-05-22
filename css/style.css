@@ -232,6 +232,10 @@ h3 {
 	font-size: 1rem;
 }
 
+#map .popupLink:hover {
+    text-decoration: none;
+}
+
 /** Project List **/
 .card-title [aria-expanded='false']:before {
 	font-family: 'FontAwesome';
