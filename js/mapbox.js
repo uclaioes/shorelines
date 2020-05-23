@@ -24,7 +24,7 @@ map.dragRotate.disable();
 map.touchZoomRotate.disableRotation();
 
 // Add full screen control to map
-map.addControl(new mapboxgl.FullscreenControl());
+// map.addControl(new mapboxgl.FullscreenControl());
 // Add zoom controls to the map
 map.addControl(new mapboxgl.NavigationControl({
     // Hide rotation control.
