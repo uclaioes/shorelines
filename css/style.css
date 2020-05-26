@@ -101,11 +101,6 @@ h3 {
     font-size: 1.5rem;
 }
 
-.display-5 {
-    font-size: 1.5rem;
-    font-weight: 300;
-}
-
 /** Navigation Bar **/
 .navbar #logo {
 	max-width: 250px;
@@ -173,6 +168,11 @@ h3 {
 #jumbo p {
 	color: var(--white);
 	font-style: italic;
+}
+
+#benefits .question {
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
 /** ABOUT **/
