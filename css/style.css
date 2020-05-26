@@ -253,10 +253,16 @@ h3 {
 #interviews .card-title {
     font-size: 1.5rem;
 }
+
 #interviews .foundation {
     color: var(--green);
     font-size: 1.25rem;
     font-style: italic;
+}
+
+#interviews p.alt {
+	font-size: 0.9rem;
+    color: var(--dark-grey);
 }
 
 /** ECOLOGY **/
