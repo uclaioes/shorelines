@@ -276,15 +276,27 @@ h3 {
 	color: var(--darkest-grey);
 }
 
+#ecograss {
+    color: var(--white);
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)), url(../img/stock/kelp1.jpg) center no-repeat;
+    background-size: cover;
+}
+
+#ecograss h2 {
+    color: var(--white);
+}
+
 #kelp {
     color: var(--white);
     background: linear-gradient(-90deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)), url(../img/stock/kelp1.jpg) center no-repeat;
     background-size: cover;
 }
 
+
 #kelp h2 {
     color: var(--white);
 }
+
 
 /** METHODS **/
 #methods h2 {
