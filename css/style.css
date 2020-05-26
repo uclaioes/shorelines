@@ -171,6 +171,7 @@ h3 {
 }
 
 #benefits .question {
+    color: var(--green);
     font-size: 1.5rem;
     font-weight: 300;
 }
