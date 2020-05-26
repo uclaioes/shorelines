@@ -35,6 +35,11 @@ body {
 	font-weight: 400;
 }
 
+.alt {
+	font-size: 0.9rem;
+    color: var(--dark-grey);
+}
+
 /** Remove Rounded Corners **/
 * {
 	border-radius: 0 !important;
@@ -258,11 +263,6 @@ h3 {
     color: var(--green);
     font-size: 1.25rem;
     font-style: italic;
-}
-
-#interviews p.alt {
-	font-size: 0.9rem;
-    color: var(--dark-grey);
 }
 
 /** ECOLOGY **/
