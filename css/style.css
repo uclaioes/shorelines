@@ -276,18 +276,19 @@ div.sticky {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    background: inherit;
     z-index: 2;
-}
-
-#kelp {
-    color: var(--white);
-    background: linear-gradient(-90deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)), url(../img/stock/kelp1.jpg) top center no-repeat;
-    background-size: cover;
 }
 
 #ecograss {
     color: var(--white);
-    background: linear-gradient(-90deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)), url(../img/stock/seagrass_silho.jpg) top center no-repeat;
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../img/stock/seagrass_silho.jpg) top center fixed no-repeat;
+    background-size: cover;
+}
+
+#kelp {
+    color: var(--white);
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)), url(../img/stock/kelp1.jpg) top center fixed no-repeat;
     background-size: cover;
 }
 
