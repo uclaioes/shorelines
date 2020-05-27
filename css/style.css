@@ -272,11 +272,11 @@ h3 {
 }
 
 /** ECOLOGY **/
-div.sticky {
+#ecology div.sticky {
+    background: inherit;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    background: inherit;
     z-index: 2;
 }
 
