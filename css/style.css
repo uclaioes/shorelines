@@ -54,7 +54,6 @@ a:hover {
 	color: var(--ucla-darkest-blue);
 }
 
-a:active,
 a.active {
 	color: var(--light-green);
 }
