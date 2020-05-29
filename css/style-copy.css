@@ -149,10 +149,6 @@ h3 {
 }
 
 /** HOME **/
-#about-us p {
-	color: var(--white);
-}
-
 /** Jumbotron **/
 #jumbo {
 	background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)), url(../img/home/grass-web.jpg) fixed bottom center no-repeat;
@@ -172,19 +168,17 @@ h3 {
 	color: var(--white);
 }
 
+/** About Us **/
+#about-us {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#about-us p {
+	color: var(--white);
+}
+
 /** Benefits **/
-.benefits .row {
-    padding-top: 25%;
-    padding-bottom: 25%;
-}
-
-@media(min-width: 992px) {
-    .benefits .row {
-        padding-top: 12.5%;
-        padding-bottom: 12.5%;
-    }
-}
-
 .benefits .question {
     color: var(--green);
     font-size: 1.5rem;
