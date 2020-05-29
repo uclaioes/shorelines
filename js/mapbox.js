@@ -3,8 +3,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiY2JlcmNpayIsImEiOiJjazlxZjN3dGIwOHkxM21tcmppa
 
 // Set Map Bounds
 var maxBounds = [
-	[-167.276413, 5.499550], // Southwest
-	[-52.233040, 83.162102] // Northeast
+	[-140.276413, 15.499550], // Southwest
+	[-52.233040, 53.162102] // Northeast
 ];
 
 // Initialize Map
