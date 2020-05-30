@@ -186,23 +186,29 @@ h3 {
 }
 
 #benefits-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../img/home/fish1-web.jpg) fixed center center no-repeat;
-}
-
-@media(min-width: 768px) {
-    #benefits-1 {
-        background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../img/home/fish1-web.jpg) fixed center right no-repeat;
-    }
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../img/home/fish1-web.jpg) fixed center right no-repeat;
 }
 
 #benefits-2 {
     background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../img/home/grass2-web.jpg) fixed top right no-repeat;
     background-size: cover;
+    height: 100%;
+    padding-top: 25%;
+    padding-bottom: 25%;
 }
 
 @media(min-width: 992px) {
     #benefits-2 {
         height: 100vh;
+        padding-top: 7.5vh;
+        padding-bottom: 7.5vh;
+    }
+}
+
+@media(min-width: 1200px) {
+    #benefits-2 {
+        padding-top: 12.5vh;
+        padding-bottom: 12.5vh;
     }
 }
 
