@@ -235,7 +235,8 @@ h3 {
 }
 
 #benefits-4 {
-    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)), url(../img/home/grass4-web.jpg) fixed bottom left no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)), url(../img/home/grass4-web.jpg) fixed bottom center no-repeat;
+    background-size: cover;
     height: 100%;
     padding-top: 25%;
     padding-bottom: 25%;
