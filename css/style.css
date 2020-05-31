@@ -35,6 +35,10 @@ body {
 	font-weight: 400;
 }
 
+.full-screen {
+    height: 100vh;
+}
+
 .alt {
 	font-size: 0.9rem;
     color: var(--dark-grey);
@@ -158,13 +162,9 @@ h3 {
 }
 
 /** HOME **/
-#about-us p {
-	color: var(--white);
-}
-
 /** Jumbotron **/
-#jumbo .container {
-	background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../img/home/grass-banner.jpg) center no-repeat;
+#jumbo {
+	background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)), url(../img/home/grass-web.jpg) fixed bottom center no-repeat;
 	background-size: cover;
 }
 
@@ -179,13 +179,76 @@ h3 {
 
 #jumbo p {
 	color: var(--white);
-	font-style: italic;
 }
 
-#benefits .question {
+/** About Us **/
+#about-us {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#about-us p {
+	color: var(--white);
+}
+
+/** Benefits **/
+.benefits .question {
     color: var(--green);
     font-size: 1.5rem;
     font-weight: 300;
+}
+
+#benefits-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../img/home/fish1-web.jpg) fixed center right no-repeat;
+}
+
+#benefits-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../img/home/grass2-web.jpg) fixed top right no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+@media(min-width: 992px) {
+    #benefits-2 {
+        height: 100vh;
+        padding-top: 7.5vh;
+        padding-bottom: 7.5vh;
+    }
+}
+
+@media(min-width: 1200px) {
+    #benefits-2 {
+        padding-top: 12.5vh;
+        padding-bottom: 12.5vh;
+    }
+}
+
+#benefits-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(../img/home/kelp6-web.jpg) fixed center center no-repeat;
+}
+
+#benefits-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)), url(../img/home/grass4-web.jpg) fixed bottom left no-repeat;
+    height: 100%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+@media(min-width: 992px) {
+    #benefits-4 {
+        height: 100vh;
+        padding-top: 12.5vh;
+        padding-bottom: 12.5vh;
+    }
+}
+
+@media(min-width: 1200px) {
+    #benefits-4 {
+        padding-top: 20vh;
+        padding-bottom: 30vh;
+    }
 }
 
 /** ABOUT **/
@@ -412,6 +475,14 @@ footer {
 
 footer #logo-short {
 	max-width: 64px;
+}
+
+footer #sitemap a {
+    color: var(--ucla-lighter-blue); 
+}
+
+footer #sitemap a:hover {
+    color: var(--ucla-lightest-blue); 
 }
 
 footer #copyright {
