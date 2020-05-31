@@ -366,15 +366,19 @@ h3 {
 }
 
 /** ECOLOGY **/
-/*
-div.sticky {
-    background: inherit;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 2;
+#ecograss img.zoom-in {
+    cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in; 
+    cursor: zoom-in;
 }
-*/
+
+#ecograss .modal-title {
+    font-size: 1.5rem;
+}
+
+#ecograss-img-2 img {
+    max-width: 1000px;
+}
 
 #ecograss {
     background: linear-gradient(-90deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/stock/seagrass_silho.jpg) top center fixed no-repeat;
