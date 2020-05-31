@@ -213,11 +213,29 @@ h3 {
 }
 
 #benefits-3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(../img/home/kelp6-web.jpg) fixed bottom left no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(../img/home/kelp6-web.jpg) fixed center center no-repeat;
 }
 
 #benefits-4 {
-    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)), url(../img/home/grass_diver-web.jpg) fixed center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)), url(../img/home/grass4-web.jpg) fixed bottom left no-repeat;
+    height: 100%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+@media(min-width: 992px) {
+    #benefits-4 {
+        height: 100vh;
+        padding-top: 12.5vh;
+        padding-bottom: 12.5vh;
+    }
+}
+
+@media(min-width: 1200px) {
+    #benefits-4 {
+        padding-top: 20vh;
+        padding-bottom: 30vh;
+    }
 }
 
 /** ABOUT **/
