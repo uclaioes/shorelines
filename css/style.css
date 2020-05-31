@@ -49,6 +49,12 @@ body {
     border-color: var(--lightest-green);
 }
 
+img.zoom-in {
+    cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in; 
+    cursor: zoom-in;
+}
+
 .caption {
 	font-size: 0.9rem;
     color: var(--white);
@@ -366,12 +372,6 @@ h3 {
 }
 
 /** ECOLOGY **/
-#ecograss img.zoom-in {
-    cursor: -moz-zoom-in; 
-    cursor: -webkit-zoom-in; 
-    cursor: zoom-in;
-}
-
 #ecograss .modal-title {
     font-size: 1.5rem;
 }
