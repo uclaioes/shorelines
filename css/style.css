@@ -482,7 +482,7 @@ footer #sitemap a {
 }
 
 footer #sitemap a:hover {
-    color: var(--ucla-lightest-blue); 
+    color: var(--white); 
 }
 
 footer #copyright {
