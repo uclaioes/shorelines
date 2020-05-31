@@ -500,7 +500,8 @@ footer #sitemap a {
 }
 
 footer #sitemap a:hover {
-    color: var(--white); 
+    color: var(--white);
+    text-decoration: none;
 }
 
 footer #copyright {
