@@ -223,12 +223,12 @@ h3 {
 }
 
 #benefits-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../img/home/fish1-web.jpg) fixed center right no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../img/home/fish1-web.jpg) center right no-repeat;
     height: 100vh;
 }
 
 #benefits-2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../img/home/grass2-web.jpg) fixed top right no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../img/home/grass2-web.jpg) top right no-repeat;
     background-size: cover;
     height: 100%;
     padding-top: 25%;
@@ -237,6 +237,7 @@ h3 {
 
 @media(min-width: 992px) {
     #benefits-2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../img/home/grass2-web.jpg) fixed top right no-repeat;
         height: 100vh;
         padding-top: 7.5vh;
         padding-bottom: 7.5vh;
@@ -251,12 +252,13 @@ h3 {
 }
 
 #benefits-3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(../img/home/kelp6-web.jpg) fixed center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(../img/home/kelp6-web.jpg) center center no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 #benefits-4 {
-    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)), url(../img/home/grass4-web.jpg) fixed bottom center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)), url(../img/home/grass4-web.jpg) bottom center no-repeat;
     background-size: cover;
     height: 100%;
     padding-top: 25%;
