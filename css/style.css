@@ -54,12 +54,12 @@ body {
 }
 
 .caption a {
-	color: var(--white);
+	color: var(--ucla-lightest-blue);
     text-decoration: underline;
 }
 
 .caption a:hover {
-	color: var(--lightest-green);
+	color: var(--white);
 }
 
 /** Remove Rounded Corners **/
@@ -352,6 +352,11 @@ h3 {
 }
 
 /** ECOLOGY **/
+#ecograss h3,
+#kelp h3 {
+    text-decoration: underline;
+}
+
 div.sticky {
     background: inherit;
     position: -webkit-sticky; /* Safari */
@@ -370,6 +375,14 @@ div.sticky {
     color: var(--white);
     background: linear-gradient(-90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/stock/kelp1.jpg) top center fixed no-repeat;
     background-size: cover;
+}
+
+#kelp a {
+    color: var(--ucla-lighter-blue); 
+}
+
+#kelp a:hover {
+    color: var(--white); 
 }
 
 /** METHODS **/
