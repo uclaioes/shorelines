@@ -473,6 +473,11 @@ h3 {
 	color: var(--green);
 }
 
+#library .subheading {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
 #library ul.bullets {
     list-style-type: square;
 }
