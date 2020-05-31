@@ -224,6 +224,7 @@ h3 {
 
 #benefits-1 {
     background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../img/home/fish1-web.jpg) fixed center right no-repeat;
+    height: 100vh;
 }
 
 #benefits-2 {
