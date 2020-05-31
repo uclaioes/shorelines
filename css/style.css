@@ -133,6 +133,18 @@ h3 {
 	}
 }
 
+@media (min-width: 768px) {
+	.navbar #logo {
+		max-width: 375px;
+	}
+}
+
+@media (min-width: 992px) {
+	.navbar #logo {
+		max-width: 325px;
+	}
+}
+
 .navbar-nav .nav-item {
 	padding: 0 1rem;
 }
