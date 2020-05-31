@@ -394,10 +394,6 @@ h3 {
     font-size: 1.5rem;
 }
 
-#ecograss-img-2 img {
-    max-width: 1000px;
-}
-
 #ecograss {
     background: linear-gradient(-90deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/stock/seagrass_silho-web-v.jpg) top center no-repeat;
     background-size: cover;
