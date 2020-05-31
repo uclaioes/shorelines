@@ -59,7 +59,7 @@ body {
 }
 
 .caption a:hover {
-	color: var(--white);
+	color: var(--lightest-green);
 }
 
 /** Remove Rounded Corners **/
