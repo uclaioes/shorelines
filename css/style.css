@@ -486,6 +486,10 @@ div.sticky {
 }
 
 /** Footer **/
+.spacer {
+    height: 1rem;
+}
+
 footer {
 	color: var(--white);
 	background: linear-gradient(0deg, rgba(105, 80, 25, 1) 76%, rgba(174, 148, 107, 1) 100%);
