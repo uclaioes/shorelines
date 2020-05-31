@@ -44,6 +44,11 @@ body {
     color: var(--dark-grey);
 }
 
+.bordered {
+    border: 3px solid;
+    border-color: var(--lightest-green);
+}
+
 .caption {
 	font-size: 0.9rem;
 }
