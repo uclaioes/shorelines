@@ -506,5 +506,6 @@ footer #sitemap a:hover {
 }
 
 footer #copyright {
+    font-size: 0.9rem;
 	color: #2d2015;
 }
