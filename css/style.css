@@ -421,6 +421,12 @@ h3 {
 }
 
 /** LIBRARY **/
+#library div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
 #libraryNav .list-group-item {
 	color: var(--ucla-darker-blue);
 	border-color: var(--ucla-darker-blue);
