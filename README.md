@@ -10,6 +10,15 @@
 1. [Steph Kwiatkowski](https://www.linkedin.com/in/steph-kwiatkowski-58b234123)
 1. [Carter Webb](https://carterewebb.github.io/)
 
+## Tech
+
+- mapbox
+- bootstrap
+- html
+- css
+- youtube
+
+
 ## Links
 
 - [CSV to GeoJson](https://www.convertcsv.com/csv-to-geojson.htm)
