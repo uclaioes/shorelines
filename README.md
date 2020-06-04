@@ -7,7 +7,7 @@
 1. [Meagan Gramatikov](https://projectdalek.github.io/)
 1. [Mateen Hassan]
 1. [Ryan Miller]
-1. [Steph Kwiatkowski]
+1. [Steph Kwiatkowski](https://www.linkedin.com/in/steph-kwiatkowski-58b234123)
 1. [Carter Webb](https://carterewebb.github.io/)
 
 ## Links
