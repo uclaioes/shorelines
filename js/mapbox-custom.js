@@ -5,8 +5,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiY2JlcmNpayIsImEiOiJjazlxZjN3dGIwOHkxM21tcmppa
 var maxBounds = [
     [-167.276413, 5.499550], // Southwest
     [-52.233040, 83.162102]  // Northeast
-    
-    /*
+
+    /* Contiguous 48 States - affects button clickable area
 	[-140.276413, 15.499550], // Southwest
 	[-52.233040, 53.162102] // Northeast
     */
@@ -61,7 +61,7 @@ map.on('load', function () {
             'icon-allow-overlap': true,
         }
     });
-    
+
     // Add Popups to Map
     map.on('click', 'points', function (e) {
         // Map Fly To Center
