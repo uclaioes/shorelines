@@ -5,7 +5,7 @@
 1. [Connor Bercik](https://www.linkedin.com/in/cbercik/)
 1. [Rachel Bressler] (https://www.linkedin.com/in/rachel-bressler-2a60a7195/)
 1. [Meagan Gramatikov](https://www.linkedin.com/in/meagan-elise-gramatikov-73142582/)
-1. [Mateen Hassan]
+1. [Mateen Hassan] (https://www.facebook.com/mateen.hassan.2)
 1. [Ryan Miller] (https://www.linkedin.com/in/ryanmiller111/)
 1. [Steph Kwiatkowski](https://www.linkedin.com/in/steph-kwiatkowski-58b234123)
 1. [Carter Webb](https://www.linkedin.com/in/carter-webb-2284ba154/)
