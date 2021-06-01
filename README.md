@@ -1,6 +1,11 @@
 # Shorelines Project
 
-## Team
+## 2020 Team
+1. Madison Castelazo
+1. George Shenusay
+1. Ka Hei Ng
+
+## 2019 Team
 
 1. [Connor Bercik](https://www.linkedin.com/in/cbercik/)
 1. [Rachel Bressler] (https://www.linkedin.com/in/rachel-bressler-2a60a7195/)
